@@ -1,0 +1,25 @@
+<div class="schedule-item" [class.schedule-item--faded]="faded">
+	<div
+		class="schedule-item__hour">
+
+		{{ item.startDate | moment:'HH:mm' }}
+	</div>
+
+	<div
+		class="schedule-item__item {{ item.type }}"
+		(click)="onSelect()"
+		[class.short]="!item.speakers">
+		<h3>{{ item.title }}</h3>
+
+		<div
+			class="schedule-item__speakers"
+			*ngIf="item.speakers">
+			<div
+				class="schedule-item__speaker"
+				*ngFor="let speaker of item.speakers">
+				<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}">
+				<span>{{ speaker.firstName }}<br />{{ speaker.name }}</span>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,199 @@
+[
+
+	{
+		"id": "1",
+		"firstName": "Michael",
+		"name": "Hladky",
+		"description": "<p>Michael is an International Speaker, Trainer and Consultant focused on Angular. He is the founder of Angular Austria Association, RxJS lover, good citizen of earth.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/michael-hladky.jpeg?alt=media&token=69127873-0c05-4994-af5f-865561dc24fa",
+		"social": {
+			"github": "BioPhoton",
+			"twitter": "Michael_Hladky"
+		},
+		"talk": {
+			"id": "3",
+			"title": "Tackling Component-state Reactively"
+		}
+	},
+	{
+		"id": "2",
+		"firstName": "Jan-Niklas",
+		"name": "Wortmann",
+		"description": "<p>Jan-Niklas Wortmann is a software developer mostly working on Angular related projects. He helps companies in designing and implementing large scaled applications. Developing clean and maintainable code is one of his main goals.</p><p>Additionally, Jan-Niklas is a member of the RxJS Core Team targeting the developer experience by improving the docs. Besides he’s an active member in the Angular community and organizes the NgNiederrhein Meetup.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/jan-niklas-wortmann.jpeg?alt=media&token=dcc1b7fd-d32e-41c5-a763-e0dc5e77b995",
+		"social": {
+			"github": "JWO719",
+			"twitter": "niklas_wortmann"
+		},
+		"talk": {
+			"id": "3",
+			"title": "Tackling Component-state Reactively"
+		}
+	},
+	{
+		"id": "3",
+		"firstName": "Amir",
+		"name": "Rustamzadeh",
+		"description": "<p>Amir Rustamzadeh is a classically trained electrical engineer that just couldn’t shake his urges of building for the web. He’s experienced in developing mission critical systems for the aerospace industry, and other large enterprises, but now enjoys his days working on Cypress, an open-source tool for building higher quality software for the web.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/amir-rustamzadeh.jpeg?alt=media&token=607bd049-1bb5-4671-b37a-929c605c365f",
+		"social": {
+			"twitter": "amirrustam",
+			"github": "amirrustam"
+		},
+		"talk": {
+			"id": "4",
+			"title": "Reliably End-To-End Testing Angular Applications"
+		}
+	},
+	{
+		"id": "4",
+		"firstName": "Sherry",
+		"name": "List",
+		"description": "<p>For the past 15 years, Sherry has worked with a variety of web technologies and currently works as Developer Relations Lead at Microsoft.</p><p>Apart from her everyday job, she is a co-organizer of the ngVikings and ngSpain conference, as well as some Meetups groups, such as ngCopenhagen and Women Techmakers. She loves animals and supports various non-profit animal protection organizations.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/sherry-list.jpg?alt=media&token=1f000ad3-7094-4b93-a14f-b3b4c2b4886f",
+		"social": {
+			"github": "sazimi",
+			"twitter": "sherrrylst"
+		},
+		"talk": {
+			"id": "5",
+			"title": "Exploring WebVR"
+		}
+	},
+	{
+		"id": "5",
+		"firstName": "Ana",
+		"name": "Cidre",
+		"description": "<p>Ana is the organiser of ngSpain. She has a degree in Fine Arts and a Master in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular.</p><p>As a very active member of the community, she regularly organises meetups and conferences, like the upcoming ngSpain and the legendary ngVikings. In Spain, where she’s currently based, she’s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Lead.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/ana-cidre.jpg?alt=media&token=00225599-0871-49f7-932b-d1faec9c433a",
+		"social": {
+			"twitter": "AnaCidre_",
+			"github": "anacidre"
+		},
+		"talk": {
+			"id": "5",
+			"title": "Exploring WebVR"
+		}
+	},
+	{
+		"id": "6",
+		"firstName": "Philippe",
+		"name": "De Ryck",
+		"description": "<p>Philippe De Ryck helps developers protect companies through better web security. As the founder of Pragmatic Web Security, he travels the world to train developers on web security and security engineering.</p><p>His Ph.D. in web security from KU Leuven lies at the basis of his exceptional knowledge of the security landscape. Google recognizes Philippe as a Google Developer Expert for his work on security in Angular applications.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/philippe-de-ryck.jpeg?alt=media&token=6dacfa6e-239e-4ddc-a649-bcbfc9417b2d",
+		"social": {
+			"twitter": "philippederyck",
+			"github": "philippederyck",
+			"website": "https://pragmaticwebsecurity.com/"
+		},
+		"talk": {
+			"id": "8",
+			"title": "Authentication with OpenID Connect in Angular applications"
+		}
+	},
+	{
+		"id": "7",
+		"firstName": "Juri",
+		"name": "Strumpflohner",
+		"description": "<p>Juri is a software engineer and freelance trainer and consultant. He currently develops modern web and mobile enterprise applications using the web platform, JavaScript and Angular. He’s an avid blogger, writing tech articles mostly on his website juristr.com.</p><p>Since 2017, Juri is also part of the Google Developers Experts program and an official Egghead.io instructor where he is one of the top publishers around Angular topics. Come and say “hi” on Twitter @juristr.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/juri-strumpflohner.png?alt=media&token=ac31dcb2-2127-4913-94b7-c826a244be74",
+		"social": {
+			"twitter": "juristr",
+			"github": "juristr",
+			"website": "https://juri.dev"
+		},
+		"talk": {
+			"id": "9",
+			"title": "Enterprise Grade Angular Reactive Forms"
+		}
+	},
+	{
+		"id": "8",
+		"firstName": "Max",
+		"name": "Koretskyi",
+		"description": "<p>Max is adept at architectural patterns in JS frameworks. He finds them and tries to explain them in plain English. He is a self-taught software engineer that believes in fundamental knowledge and hardcore learning. He’s the founder of Angular In Depth blog and community and one of the top Angular contributors on StackOverflow. He is a Google Developer Expert in Web Technologies and holds the title of Microsoft’s Most Valuable Professional. He currently works as a Developer Advocate at ag-Grid.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/max-koretskyi.jpeg?alt=media&token=3803762b-4a7b-40a7-bef2-6360be03e80b",
+		"social": {
+			"twitter": "maxkoretskyi",
+			"github": "maximusk",
+			"website": "https://indepth.dev/"
+		},
+		"talk": {
+			"id": "13",
+			"title": "The Secrets behind Angular’s Lightning Speed"
+		}
+	},
+	{
+		"id": "9",
+		"firstName": "Isaac",
+		"name": "Mann",
+		"description": "<p>Isaac Mann enjoys splitting complex UIs into reusable components. As a Senior Angular Engineer at Nrwl, he helps teams adopt modern tools and frameworks.</p><p>He’s the author of a couple UI libraries (ngx-tour and ngx-contextmenu) and is an instructor for Egghead.io.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/isaac-mann.jpg?alt=media&token=d81cbec7-5239-4073-af00-5b7ac8ee7339",
+		"social": {
+			"twitter": "MannIsaac",
+			"github": "isaacplmann"
+		},
+		"talk": {
+			"id": "14",
+			"title": "E2E Testing at Half the Cost"
+		}
+	},
+	{
+		"id": "9",
+		"firstName": "Dominic",
+		"name": "Elm",
+		"description": "<p>Dominic is a GDE for Web Technologies and Angular. He loves RxJS, TypeScript and Machine Learning. He is also a Software Engineer at @StackBlitz and provides high-quality trainings for @thoughtram. Besides work, you will most likely find him outside with his race bike, hiking or rock climbing.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/dominic-elm.jpg?alt=media&token=84f40b95-2bdc-4d7d-b668-603803e30751",
+		"social": {
+			"twitter": "elmd_",
+			"github": "d3lm"
+		},
+		"talk": {
+			"id": "15",
+			"title": "Master Tooling by hacking the Angular Compiler"
+		}
+	},
+	{
+		"id": "10",
+		"firstName": "Bonnie",
+		"name": "Brennan",
+		"description": "<p>Bonnie is an Angular GDE and an Angular Air panelist. Her daughter Sam is the creator of Angular for the Visual Learner. They recently moved from Texas to The Netherlands together where they write and teach Angular.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/bonnie-brennan.png?alt=media&token=7a4a963e-f5bf-403f-8b21-c70bad4ea885",
+		"social": {
+			"twitter": "bonnster75",
+			"github": "bcarson"
+		},
+		"talk": {
+			"id": "19",
+			"title": "Dev up"
+		}
+	},
+	{
+		"id": "11",
+		"firstName": "Samantha",
+		"name": "Brennan",
+		"description": "<p>Sam is the creator of Angular for the Visual Learner. She recently moved from Texas to The Netherlands together with her mom where they write and teach Angular.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/samantha-brennan.jpg?alt=media&token=e5633a86-0dc5-4a9a-a4c7-ef3ae638b1cd",
+		"social": {
+			"twitter": "thelittlestdev"
+		},
+		"talk": {
+			"id": "19",
+			"title": "Dev up"
+		}
+	},
+	{
+		"id": "12",
+		"firstName": "Manfred",
+		"name": "Steyer",
+		"description": "<p>Trainer, consultant and programming architect with focus on Angular. Google Developer Expert (GDE) and Trusted Collaborator in the Angular team who writes for O’Reilly, the German Java Magazine, and windows.developer. Regularly speaks at conferences.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/manfred-steyer.jpg?alt=media&token=9786aac9-b0e9-4fb5-a04c-f62c0b5af5e4",
+		"social": {
+			"twitter": "thelittlestdev"
+		},
+		"talk": {
+			"id": "18",
+			"title": "Sustainable Angular Architectures with Monorepos and Strategic Domain Driven Design"
+		}
+	}
+]

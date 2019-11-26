@@ -1,0 +1,14 @@
+{
+	"extends": "tslint-xo",
+	"rulesDirectory": [
+		"codelyzer"
+	],
+	"rules": {
+		"no-stateless-class": false,
+		"no-floating-promises": false,
+		"no-unnecessary-class": false,
+		"no-implicit-dependencies": false,
+		"only-arrow-functions": false,
+		"member-ordering": false
+	}
+}

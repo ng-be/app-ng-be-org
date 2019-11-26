@@ -1,0 +1,71 @@
+.schedule-item {
+	display: flex;
+	margin-bottom: 5px;
+	font-size: 14px;
+
+	&--faded {
+		opacity: 0.5;
+	}
+
+	&__hour {
+		width: 50px;
+		padding: 5px;
+		flex-shrink: 0;
+	}
+
+	&__item {
+		flex-grow: 1;
+		padding: 5px;
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+
+		h3 {
+			font-weight: 100;
+			font-size: 16px;
+			padding: 0;
+			margin: 0;
+			flex: 1;
+		}
+
+		&.short {
+			height: auto;
+		}
+
+		&.talk {
+			background-color: #f9df51;
+		}
+
+		&.break, &.lunch {
+			background-color: lightgray;
+		}
+
+		&.sponsor {
+			background-color: lighten(#d52533, 10%);
+		}
+	}
+
+	&__speakers {
+		display: flex;
+	}
+
+	&__speaker {
+		display: flex;
+		margin-right: 30px;
+
+		img {
+			width: 28px;
+			height: 28px;
+			border-radius: 100%;
+			overflow: hidden;
+			border: 1px solid white;
+			object-fit: cover
+		}
+
+		span {
+			margin-left: 5px;
+			font-weight: 100;
+			font-size: 12px;
+		}
+	}
+}

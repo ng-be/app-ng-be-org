@@ -1,0 +1,46 @@
+.about {
+	background-color: #fafafa;
+
+	h3, h4 {
+		font-weight: 100;
+	}
+
+	&__header {
+		padding: 16px;
+		width: 100%;
+		min-height: 75px;
+		text-align: center;
+
+		img {
+			max-width: 200px;
+			max-height: 75px;
+		}
+	}
+
+	&__info {
+		background-color: white;
+
+		ion-list {
+			margin-bottom: 0;
+		}
+
+		ion-icon {
+			color: var(--ion-color-primary);
+			width: 20px;
+			margin-right: 10px;
+		}
+	}
+
+	&__description {
+		h4 {
+			margin-top: 30px;
+		}
+
+		p {
+			color: #444;
+			text-align: left;
+			font-size: 16px;
+			line-height: 1.4em;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.speaker-info {
+	h3 {
+		font-weight: 100;
+		margin-left: 10px;
+		margin-right: 10px;
+
+		&.padding {
+			margin-top: 50px;
+		}
+	}
+
+	&__header {
+		display: flex;
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+	}
+
+	&__description, &__talk-title {
+		font-size: 16px;
+		line-height: 1.4em;
+		margin: 0px 10px;
+		color: #444;
+
+		p {
+			padding: 10px;
+			margin: 0;
+		}
+	}
+
+	&__social {
+		background-color: #fafafa;
+		border-bottom: 1px solid darken(#fafafa, 10%);
+	}
+}

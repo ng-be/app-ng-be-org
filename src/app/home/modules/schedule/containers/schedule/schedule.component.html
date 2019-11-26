@@ -1,0 +1,21 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>Schedule</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-spinner *ngIf="loading$ | async; else schedule"></ion-spinner>
+
+	<ng-template #schedule>
+		<ul>
+			<li>
+				<schedule-item
+					*ngFor="let item of (schedule$ | async)"
+					[item]="item"
+					(detail)="showDetail($event)">
+				</schedule-item>
+			</li>
+		</ul>
+	</ng-template>
+</ion-content>

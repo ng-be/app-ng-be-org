@@ -1,0 +1,54 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>About</ion-title>
+
+		<ion-buttons slot="primary">
+			<ion-button shape="round" (click)="showMenu($event)">
+				<ion-icon name="more"></ion-icon>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content class="about">
+	<div class="about__header">
+		<img src="assets/images/ngbe-logo.svg">
+	</div>
+
+	<div class="ion-padding about__info">
+		<ion-list lines="none">
+			<ion-item>
+				<ion-icon name="calendar" item-left></ion-icon>
+				5th - 6th of December, 2019
+			</ion-item>
+
+			<ion-item>
+				<ion-icon name="pin" item-left></ion-icon>
+				Holiday Inn - Ghent Expo<br/>
+				Maaltekouter 3, 9051 Ghent, Belgium
+			</ion-item>
+		</ion-list>
+	</div>
+
+	<div class="ion-padding about__description">
+		<h3>NG-BE 2019</h3>
+		<p>
+			NG-BE is <strong>the Belgian Angular conference</strong> and will be held at the beautiful Holiday Inn Ghent, Expo venue in Ghent on December 5 & 6, 2019.
+		</p>
+
+		<h4>Workshop day</h4>
+		<p>
+			<strong>December 5 is a multi-track workshop day</strong>, where attendees can learn about the latest Angular developments.
+		</p>
+
+		<h4>Conference day</h4>
+		<p>
+			<strong>December 6 is a single-track conference day</strong>. Attendees will be able to listen to talks from world-renowned Angular experts while enjoying delicious foods and drinks.
+		</p>
+
+		<h4>App credits</h4>
+		<p>
+			&bull; Sam Verschueren
+		</p>
+	</div>
+</ion-content>

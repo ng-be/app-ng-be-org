@@ -1,0 +1,43 @@
+{
+	"$schema": "./node_modules/@angular/service-worker/config/schema.json",
+	"index": "/index.html",
+	"assetGroups": [
+		{
+			"name": "app",
+			"installMode": "prefetch",
+			"resources": {
+				"files": [
+					"/index.html",
+					"/*.css",
+					"/*.js",
+					"/assets/icons/favicon.png",
+					"/assets/images/*"
+				]
+			}
+		},
+		{
+			"name": "assets",
+			"installMode": "lazy",
+			"updateMode": "prefetch",
+			"resources": {
+				"files": [
+					"/assets/icons/*",
+					"/svg/*"
+				]
+			}
+		}
+	],
+	"dataGroups": [
+		{
+			"name": "firebasestorage",
+			"urls": [
+				"https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/**"
+			],
+			"cacheConfig": {
+				"maxSize": 20,
+				"maxAge": "7d",
+				"strategy": "freshness"
+			}
+		}
+	]
+}

@@ -1,0 +1,36 @@
+<div class="schedule-item-detail">
+	<h1>{{ item.title }}</h1>
+
+	<section class="schedule-item-detail__info">
+		<label>Slot:</label>
+		<span>{{ item.startDate | moment:'HH:mm' }} - {{ item.endDate | moment:'HH:mm' }}</span>
+	</section>
+
+	<section
+		class="schedule-item-detail__description"
+		*ngIf="item.description">
+		<h3>Description</h3>
+
+		<div [innerHtml]="item.description"></div>
+	</section>
+
+	<section
+		class="schedule-item-detail__speakers"
+		*ngIf="item.speakers">
+		<h3>Speakers</h3>
+
+		<ion-list class="ion-no-padding" lines="none">
+			<ion-item
+				(click)="onSpeakerSelect(speaker.id)"
+				*ngFor="let speaker of item.speakers">
+				<ion-avatar slot="start">
+					<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}">
+				</ion-avatar>
+
+				<ion-label>
+					{{ speaker.firstName }} {{ speaker.name }}
+				</ion-label>
+			</ion-item>
+		</ion-list>
+	</section>
+</div>

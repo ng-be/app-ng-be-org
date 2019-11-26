@@ -1,0 +1,16 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button (click)="close()"></ion-back-button>
+		</ion-buttons>
+
+		<ion-title>{{ speaker.firstName }} {{ speaker.name }}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<speaker-info
+		[speaker]="speaker"
+		(url)="openUrl($event)">
+	</speaker-info>
+</ion-content>
