@@ -35,6 +35,15 @@
 				"name": "Wortmann",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/jan-niklas-wortmann.jpeg?alt=media&token=dcc1b7fd-d32e-41c5-a763-e0dc5e77b995"
 			}
+		],
+		"takeaways": [
+			"Move low level subscription handling and state composition into a local service.",
+			"ChangeDetection is triggered ONLY by a pipe or a directive.",
+			"Multicast and Unicast is not the same as Hot and Cold.",
+			"Consider the late subscriber problem.",
+			"Consider Component live-time and dynamic state.",
+			"Reactive state management also allows you to have the full observable context of next, error, complete.",
+			"If you code reactively you actually are already ready to go zone-less."
 		]
 	},
 	{
@@ -105,6 +114,13 @@
 				"name": "De Ryck",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/philippe-de-ryck.jpeg?alt=media&token=6dacfa6e-239e-4ddc-a649-bcbfc9417b2d"
 			}
+		],
+		"takeaways": [
+			"Do not build custom authentication mechanisms.",
+			"Delegate authentication with OpenID Connect.",
+			"Use the right OIDC flow for your application.",
+			"Use a proper library to integrate OIDC.",
+			"Remember that the devil is always in the details."
 		]
 	},
 	{
@@ -121,6 +137,13 @@
 				"name": "Strumpflohner",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/juri-strumpflohner.png?alt=media&token=ac31dcb2-2127-4913-94b7-c826a244be74"
 			}
+		],
+		"takeaways": [
+			"Formly, the powerful alternative for creating highly dynamic, reactive Angular forms.",
+			"Formly Basics: setup and configuration.",
+			"Theming and customization: custom form controls with Formly.",
+			"Truly reactive forms.",
+			"Cross-cutting behavior with Formly"
 		]
 	},
 	{
@@ -161,6 +184,11 @@
 				"name": "Koretskyi",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/max-koretskyi.jpeg?alt=media&token=3803762b-4a7b-40a7-bef2-6360be03e80b"
 			}
+		],
+		"takeaways": [
+			"Monomorphic code executes up to 100 times faster than polymorphic.",
+			"Bloom filters can be used as efficient optimization layer for fast search.",
+			"Angular’s compiler significantly contributes to the speed of the framework."
 		]
 	},
 	{
@@ -177,6 +205,13 @@
 				"name": "Mann",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/isaac-mann.jpg?alt=media&token=d81cbec7-5239-4073-af00-5b7ac8ee7339"
 			}
+		],
+		"takeaways": [
+			"Write tests that increase your confidence in your app.",
+ 			"Don’t run unnecessary tests.",
+ 			"Use Storybook to isolate parts of your application.",
+ 			"Use Cypress to test like a user.",
+ 			"Use Nx to only run tests affected by a change."
 		]
 	},
 	{
@@ -225,6 +260,12 @@
 				"name": "Steyer",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/manfred-steyer.jpg?alt=media&token=9786aac9-b0e9-4fb5-a04c-f62c0b5af5e4"
 			}
+		],
+		"takeaways": [
+			"Cut your application into independent sub-domains.",
+			"Minimize communication and shared code between sub-domains.",
+			"Organize sub-domains as libraries in a mono repo.",
+			"Define access restrictions for the libraries to enforce your architecture."
 		]
 	},
 	{
@@ -247,6 +288,11 @@
 				"name": "Brennan",
 				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/samantha-brennan.jpg?alt=media&token=e5633a86-0dc5-4a9a-a4c7-ef3ae638b1cd"
 			}
+		],
+		"takeaways": [
+			"Participate in the Angular Community!",
+			"The best way to learn is to teach!",
+			"Dev up!"
 		]
 	},
 	{

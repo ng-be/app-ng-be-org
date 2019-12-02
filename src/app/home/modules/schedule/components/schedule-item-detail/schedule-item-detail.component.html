@@ -33,4 +33,15 @@
 			</ion-item>
 		</ion-list>
 	</section>
+
+	<section
+		*ngIf="item.takeaways">
+		<h3>Talk takeaways</h3>
+
+		<ol>
+			<li *ngFor="let takeaway of item.takeaways">
+				{{takeaway}}
+			</li>
+		</ol>
+	</section>
 </div>

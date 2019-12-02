@@ -11,4 +11,5 @@ export interface ScheduleItem {
 		name: string;
 		picture: string;
 	}[];
+	takeaways?: string[];
 }
