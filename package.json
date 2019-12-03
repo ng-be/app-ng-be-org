@@ -1,8 +1,14 @@
 {
 	"name": "app-ng-be-org-2019",
 	"version": "0.0.1",
-	"author": "Ionic Framework",
-	"homepage": "https://ionicframework.com/",
+	"description": "The ng-be app for 2019",
+	"repository": "ng-be/2019-app-ng-be-org",
+	"private": true,
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@gmail.com",
+		"url": "github.com/SamVerschueren"
+	},
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
@@ -13,7 +19,6 @@
 		"import": "ts-node -P tsconfig.script.json import.ts",
 		"deploy": "npm run build -- --prod && npx firebase deploy"
 	},
-	"private": true,
 	"dependencies": {
 		"@angular/common": "~8.1.2",
 		"@angular/core": "~8.1.2",
@@ -62,6 +67,5 @@
 		"tslint": "~5.15.0",
 		"tslint-xo": "^0.16.0",
 		"typescript": "~3.4.3"
-	},
-	"description": "An Ionic project"
+	}
 }
