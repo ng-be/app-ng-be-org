@@ -1,6 +1,6 @@
 {
 	"name": "app-ng-be-org-2019",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "The ng-be app for 2019",
 	"repository": "ng-be/2019-app-ng-be-org",
 	"private": true,
