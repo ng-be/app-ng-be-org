@@ -35,7 +35,7 @@
 				(click)="onSpeakerSelect(speaker.id)"
 				*ngFor="let speaker of item.speakers">
 				<ion-avatar slot="start">
-					<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}">
+					<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}" decoding="async" />
 				</ion-avatar>
 
 				<ion-label>

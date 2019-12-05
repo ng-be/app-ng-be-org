@@ -17,7 +17,7 @@
 			<div
 				class="schedule-item__speaker"
 				*ngFor="let speaker of item.speakers">
-				<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}">
+				<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}" decoding="async" />
 				<span>{{ speaker.firstName }}<br />{{ speaker.name }}</span>
 			</div>
 		</div>
