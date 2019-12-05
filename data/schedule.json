@@ -48,18 +48,23 @@
 	},
 	{
 		"id": "4",
-		"title": "Reliably End-to-End Testing Angular Applications",
-		"description": "<p>In this session, we’ll explore Cypress, the associated tools, usage-patterns, and ecosystem. You’ll walk away with actionable skills that will help you ship higher quality products with a higher degree of confidence.</p>",
+		"title": "RxJS Recipes",
+		"description": "<p>RxJS is one of my personal favorite technologies. But, the problem with RxJS is the very high learning curve. In this talk, we will take a look at some patterns that can be applied to Angular applications and some more advanced recipes that you should be able to use in your own projects!</p>",
 		"startDate": "2019-12-06T09:45:00+01:00",
 		"endDate": "2019-12-06T10:15:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
 				"id": "3",
-				"firstName": "Amir",
-				"name": "Rustamzadeh",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/amir-rustamzadeh.jpeg?alt=media&token=607bd049-1bb5-4671-b37a-929c605c365f"
+				"firstName": "Kwinten",
+				"name": "Pisman",
+				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/kwinten_pisman.png?alt=media&token=a5d4d26b-c65f-4d59-8205-bccf328eacf4"
 			}
+		],
+		"takeaways": [
+			"Learn a divide and conquer way of thinking.",
+			"See some much used RxJS patterns.",
+			"Write better RxJS code yourself"
 		]
 	},
 	{

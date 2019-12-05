@@ -32,17 +32,18 @@
 	},
 	{
 		"id": "3",
-		"firstName": "Amir",
-		"name": "Rustamzadeh",
-		"description": "<p>Amir Rustamzadeh is a classically trained electrical engineer that just couldn’t shake his urges of building for the web. He’s experienced in developing mission critical systems for the aerospace industry, and other large enterprises, but now enjoys his days working on Cypress, an open-source tool for building higher quality software for the web.</p>",
-		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/amir-rustamzadeh.jpeg?alt=media&token=607bd049-1bb5-4671-b37a-929c605c365f",
+		"firstName": "Kwinten",
+		"name": "Pistman",
+		"description": "<p>Kwinten is a Google Developer Expert for Angular and co-founder of Strongbrew. He recently joined the Stackblitz team and will be talking about advanced RxJS patterns that you can use in your Angular applications.</p>",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/kwinten_pisman.png?alt=media&token=a5d4d26b-c65f-4d59-8205-bccf328eacf4",
 		"social": {
-			"twitter": "amirrustam",
-			"github": "amirrustam"
+			"twitter": "KwintenP",
+			"website": "https://blog.strongbrew.io",
+			"github": "KwintenP"
 		},
 		"talk": {
 			"id": "4",
-			"title": "Reliably End-To-End Testing Angular Applications"
+			"title": "RxJS Recipes"
 		}
 	},
 	{
