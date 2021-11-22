@@ -3,24 +3,24 @@
 		"id": "1",
 		"title": "Continental Angular breakfast",
 		"description": "<p>Enjoy the continental breakfast buffet together with the speakers</p>",
-		"startDate": "2020-12-03T07:30:00+01:00",
-		"endDate": "2020-12-03T08:45:00+01:00",
+		"startDate": "2021-12-03T07:30:00+01:00",
+		"endDate": "2021-12-03T08:45:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "2",
 		"title": "Opening Ceremony",
 		"description": "<p>Enjoy the continental breakfast buffet together with the speakers</p>",
-		"startDate": "2020-12-03T08:45:00+01:00",
-		"endDate": "2020-12-03T09:00:00+01:00",
+		"startDate": "2021-12-03T08:45:00+01:00",
+		"endDate": "2021-12-03T09:00:00+01:00",
 		"type": "talk"
 	},
 	{
 		"id": "3",
 		"title": "Performance at scale",
 		"description": "<p>The async pipe is boring! We will skip ChangeDetection OnPush & trackBy and jump straight to the guts of performance. Exciting live demos as well as deep knowledge is the core of this session.</p><p>We will boost your knowledge and go way beyond the basics. In the end you will go home with lots of exercises and you will be impressed by how much faster your application can get.</p><p>Together we will have a close look on how an auditing process looks like how to read flamecharts, navigate through the network tab and increase our knowledge on network analysis. We will have a spin on the new Angular Performance DevTools, and even go fully zone-less with our Angular app.</p>",
-		"startDate": "2020-12-03T09:00:00+01:00",
-		"endDate": "2020-12-03T09:30:00+01:00",
+		"startDate": "2021-12-03T09:00:00+01:00",
+		"endDate": "2021-12-03T09:30:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -45,8 +45,8 @@
 		"id": "4",
 		"title": "Storybook you Angular app with Nx",
 		"description": "<p>Storybook helps you build \"UI components in isolation\". Combined with Nx, you can have your UI libraries easily \"browsable\" and testable by your whole dev and UI/UX teams. Combined with Angular, your project will really take off. Nx will give you the tools to generate, build, run, test and migrate your Storybooks across your apps and libraries. And this is something you don't want to miss.</p>",
-		"startDate": "2020-12-03T09:35:00+01:00",
-		"endDate": "2020-12-03T10:05:00+01:00",
+		"startDate": "2021-12-03T09:35:00+01:00",
+		"endDate": "2021-12-03T10:05:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -70,8 +70,8 @@
 		"id": "5",
 		"title": "TypeScript: Gradual, structural, dynamic, static.",
 		"description": "<p>TypeScript is probably one of the most unique programming languages in the world. Instead of defining language syntax and semantics on its own, it sits on top of JavaScript, which is used by millions! This brings us to one of TypeScript’s biggest use-cases: Being a way to formalise JavaScript’s most erratic behaviour.</p><p>But how can a type-system grasp all the powerful flexibility of a programming language so inherently dynamic, without restricting JavaScript’s expressiveness a single bit?</p><p>In this talk, we’re going to see how! We redefine types for a single function bit by bit, getting more type-safe with each step. Dynamic behaviour with static types. In the end, only JavaScript remains.</p>",
-		"startDate": "2020-12-03T10:10:00+01:00",
-		"endDate": "2020-12-03T10:40:00+01:00",
+		"startDate": "2021-12-03T10:10:00+01:00",
+		"endDate": "2021-12-03T10:40:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -86,24 +86,24 @@
 		"id": "6",
 		"title": "Networking",
 		"description": "<p>Break with coffees, teas, juices, fresh yoghurts and fruits.</p>",
-		"startDate": "2020-12-03T10:40:00+01:00",
-		"endDate": "2020-12-03T11:10:00+01:00",
+		"startDate": "2021-12-03T10:40:00+01:00",
+		"endDate": "2021-12-03T11:10:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "7",
 		"title": "Sponsor Talk: ARHS",
 		"description": "<p>Arηs Digital is a strong player in the domain of Digital Transformation, Digital Business Platforms, Web Development, Open Source Software Development and Business Intelligence. We apply state-of- the art Open Source technologies (Micro- services (Spring Boot, Spring Cloud), Angular (4+), ...) and consult in complex matters. We are a believer of Agile Scrum Methodology and embrace end-to end IT projects.</p><p>We continuously reach out to talented people looking for interesting projects, a great team to work in and an attractive salary package. We reach out to all organizations looking for a professional partner to deliver their IT projects and programs in time and in budget.</p><p>“Companies don’t do business with each other. Business is done between people. It’s about trust, commitment and understanding.” – Gunther Roobaert, Managing Director Arηs Digital.</p>",
-		"startDate": "2020-12-03T11:10:00+01:00",
-		"endDate": "2020-12-03T11:15:00+01:00",
+		"startDate": "2021-12-03T11:10:00+01:00",
+		"endDate": "2021-12-03T11:15:00+01:00",
 		"type": "sponsor"
 	},
 	{
 		"id": "8",
 		"title": "Securing Angular with Trusted Types",
 		"description": "<p>User authentication has become so complex that developers should not touch it anymore. Anyone building a modern application should consider using an identity provider that handles authentication. However, doing so requires the use of OpenID Connect (OIDC), which brings its own complexity.</p><p>In this talk, we look at securely implementing OIDC in an Angular application. We investigate which flow to use in which scenario. We look at the security properties in OpenID Connect, and how to ensure your application respects them. In the end, you will walk away with practical advice on implementing authentication with OIDC in Angular.</p>",
-		"startDate": "2020-12-03T11:20:00+01:00",
-		"endDate": "2020-12-03T11:50:00+01:00",
+		"startDate": "2021-12-03T11:20:00+01:00",
+		"endDate": "2021-12-03T11:50:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -124,8 +124,8 @@
 		"id": "9",
 		"title": "Flexible data flow architecture in Angular",
 		"description": "<p>Web applications are there to move data around in a useful and user-friendly way. Being quite opinionated, Angular defines its own data flow rules and provides specific ways to pass it around. You are probably already thinking about input and output binding and services, but it’s just the tip of the iceberg! I’ve counted more than 15 interaction options in total!</p><p>Let’s zoom out and have a look at the general principles rather than going into implementation of specific features. In this talk we are going to structure ways of information sharing across your app and discuss the underlying design patterns.</p><p>Being able to chose how you organise your data flows allows you to adjust the implementation to your use case. We will explore some examples where you can vary the degree of flexibility depending on the way you structure your components and services. However, with great flexibility comes great responsibility. So we will also touch upon the strengths and weaknesses of each data sharing approach.</p>",
-		"startDate": "2020-12-03T11:55:00+01:00",
-		"endDate": "2020-12-03T12:15:00+01:00",
+		"startDate": "2021-12-03T11:55:00+01:00",
+		"endDate": "2021-12-03T12:15:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -144,8 +144,8 @@
 		"id": "10",
 		"title": "Scully, past the basics",
 		"description": "<p>In this talk I'll show a couple of more advanced Scully concepts. an a novel use case.</p><p>you will learn to look past a conventional application, and see what Scully can add to your application that is usually out of reach.</p>",
-		"startDate": "2020-12-03T12:20:00+01:00",
-		"endDate": "2020-12-03T12:40:00+01:00",
+		"startDate": "2021-12-03T12:20:00+01:00",
+		"endDate": "2021-12-03T12:40:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -161,32 +161,32 @@
 		"id": "11",
 		"title": "Sponsor Talk: AXXES",
 		"description": "<p>Axxes is a full-service project sourcing organization that delivers high quality ICT services when it comes to software development, testing, system engineering, project management and data. Over 350 experienced IT consultants make a difference each day for our clients. The requested knowledge when you need it, the right person for the right project. IT is about people!</p>",
-		"startDate": "2020-12-03T12:40:00+01:00",
-		"endDate": "2020-12-03T12:45:00+01:00",
+		"startDate": "2021-12-03T12:40:00+01:00",
+		"endDate": "2021-12-03T12:45:00+01:00",
 		"type": "sponsor"
 	},
 	{
 		"id": "12",
 		"title": "Networking",
 		"description": "<p>Lunch buffet with fresh soup, salads, selections of cold and warm dishes, dessert.</p>",
-		"startDate": "2020-12-03T12:45:00+01:00",
-		"endDate": "2020-12-03T14:15:00+01:00",
+		"startDate": "2021-12-03T12:45:00+01:00",
+		"endDate": "2021-12-03T14:15:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "13",
 		"title": "Sponsor Talk: Ordina",
 		"description": "<p>IT for People. Ordina believes in a digital world that helps people to move ahead. We are helping to create a better and more pleasant society by realizing sustainable innovations together with our clients.</p>",
-		"startDate": "2020-12-03T14:15:00+01:00",
-		"endDate": "2020-12-03T14:25:00+01:00",
+		"startDate": "2021-12-03T14:15:00+01:00",
+		"endDate": "2021-12-03T14:25:00+01:00",
 		"type": "sponsor"
 	},
 	{
 		"id": "14",
 		"title": "Federated Angular: Why and How?",
 		"description": "<p>The much-discussed Micro-Frontends have challenges and trade-offs. Many wonder whether their benefits would pay off for their projects and how to implement them. This session sheds some light on the matter.</p><p>We start by exploring several real-world use cases I have helped plan and implement in recent years. They are from different industries: Finance and accounting, banking, and insurance. We also discuss projects where we deliberately decided against Micro-Frontends. With this background, we set out reasons to use, or not use, this new architectural style.</p><p>In the second part we look at implementation strategies such as Module Federation, a game-changer for Micro-Frontends even beyond SPA. After seeing how to integrate it with Angular and the CLI, we discuss consequences, trade-offs, and alternatives.</p><p>By the end, it will be clear whether Micro-Frontends are a good choice for your project and how to implement them.</p>",
-		"startDate": "2020-12-03T14:30:00+01:00",
-		"endDate": "2020-12-03T15:00:00+01:00",
+		"startDate": "2021-12-03T14:30:00+01:00",
+		"endDate": "2021-12-03T15:00:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -202,8 +202,8 @@
 		"id": "15",
 		"title": "JavaScript - Generations",
 		"description": "<p>Generators are a cool feature of JavaScript, available since ES6, which many developers either aren't aware of or don't understand. This talk will introduce you to some of the possibilities that generators bring to the table.</p>",
-		"startDate": "2020-12-03T15:05:00+01:00",
-		"endDate": "2020-12-03T15:25:00+01:00",
+		"startDate": "2021-12-03T15:05:00+01:00",
+		"endDate": "2021-12-03T15:25:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -219,8 +219,8 @@
 		"id": "16",
 		"title": "Getting to know the template type checker",
 		"description": "<p>In this talk we will explore how the Angular compiler is capable of type-checking your templates and reporting errors just like you would expect for TypeScript code. You will also learn how to make use of some more advanced features that the template type checker offers, allowing you to write better directives and achieve more type-safety in your templates.</p>",
-		"startDate": "2020-12-03T15:30:00+01:00",
-		"endDate": "2020-12-03T16:00:00+01:00",
+		"startDate": "2021-12-03T15:30:00+01:00",
+		"endDate": "2021-12-03T16:00:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -235,24 +235,24 @@
 		"id": "17",
 		"title": "Networking",
 		"description": "<p>Break with coffees, teas, juices, energizers and snacks.</p>",
-		"startDate": "2020-12-03T16:00:00+01:00",
-		"endDate": "2020-12-03T16:30+01:00",
+		"startDate": "2021-12-03T16:00:00+01:00",
+		"endDate": "2021-12-03T16:30+01:00",
 		"type": "break"
 	},
 	{
 		"id": "18",
 		"title": "Sponsor Talk: Sofico",
 		"description": "<p>We are a privately owned, independent, international company.</p><p>From our roots as a tiny Belgian start-up with a lofty vision, we grew into the leading provider of enterprise software for automotive financing, leasing, renting and sharing.</p><p>Our 250 experts service customers in 22 countries from our offices in Australia, Belgium, France, Germany, Japan, Mexico, Netherlands and the UK.</p>",
-		"startDate": "2020-12-03T16:30:00+01:00",
-		"endDate": "2020-12-03T16:35:00+01:00",
+		"startDate": "2021-12-03T16:30:00+01:00",
+		"endDate": "2021-12-03T16:35:00+01:00",
 		"type": "sponsor"
 	},
 	{
 		"id": "19",
 		"title": "Nx for Angular Developers",
 		"description": "<p>By now, you've probably heard of Nx from Nrwl. You might know that it’s a toolkit similar to Angular CLI, and it’s great for developing monorepos. But there’s so much more to Nx than just monorepos! In this talk, Jeff Cross will talk about everything Nx does to help you develop Modern Angular applications better and faster.</p>",
-		"startDate": "2020-12-03T16:40:00+01:00",
-		"endDate": "2020-12-03T17:00:00+01:00",
+		"startDate": "2021-12-03T16:40:00+01:00",
+		"endDate": "2021-12-03T17:00:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -273,8 +273,8 @@
 		"id": "20",
 		"title": "No Way, JOSE!",
 		"description": "<p>Is your first thought when thinking about cryptography, “nope, that’s not for me!”? There’s no need to. When explained with simple examples, you can see the basics are not that complicated. The JavaScript Object Signing and Encryption, or JOSE for short is a framework that helps us deal with encryption. It describes ways to securely transfer data either signed (JWS) or encrypted (JWE). Let’s take a leap of faith and explore the wonderful world of cryptography together, shall we?</p>",
-		"startDate": "2020-12-03T17:05:00+01:00",
-		"endDate": "2020-12-03T17:35:00+01:00",
+		"startDate": "2021-12-03T17:05:00+01:00",
+		"endDate": "2021-12-03T17:35:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -293,8 +293,8 @@
 		"id": "21",
 		"title": "Fireside chat with Igor",
 		"description": "<p>Live discussion about Angular using a mix of prepared and live audience questions.</p>",
-		"startDate": "2020-12-03T17:40:00+01:00",
-		"endDate": "2020-12-03T18:10:00+01:00",
+		"startDate": "2021-12-03T17:40:00+01:00",
+		"endDate": "2021-12-03T18:10:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
@@ -314,22 +314,22 @@
 	{
 		"id": "22",
 		"title": "Closing Cerenony",
-		"startDate": "2020-12-03T18:10:00+01:00",
-		"endDate": "2020-12-03T18:25:00+01:00",
+		"startDate": "2021-12-03T18:10:00+01:00",
+		"endDate": "2021-12-03T18:25:00+01:00",
 		"type": "talk"
 	},
 	{
 		"id": "23",
 		"title": "Networking - Drinks",
-		"startDate": "2020-12-03T18:25:00+01:00",
-		"endDate": "2020-12-03T19:50:00+01:00",
+		"startDate": "2021-12-03T18:25:00+01:00",
+		"endDate": "2021-12-03T19:50:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "24",
 		"title": "End of Conference",
-		"startDate": "2020-12-03T19:50:00+01:00",
-		"endDate": "2020-12-04T00:00:00+01:00",
+		"startDate": "2021-12-03T19:50:00+01:00",
+		"endDate": "2021-12-04T00:00:00+01:00",
 		"type": "break"
 	}
 ]
