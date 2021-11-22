@@ -1,14 +1,21 @@
 {
-	"name": "app-ng-be-org-2019",
+	"name": "app-ng-be-org-2021",
 	"version": "0.1.0",
-	"description": "The ng-be app for 2019",
-	"repository": "ng-be/2019-app-ng-be-org",
+	"description": "The ng-be app for 2021",
+	"repository": "ng-be/app-ng-be-org",
 	"private": true,
-	"author": {
+	"contributors": [
+		{
 		"name": "Sam Verschueren",
 		"email": "sam.verschueren@gmail.com",
 		"url": "github.com/SamVerschueren"
-	},
+		},
+		{
+			"name": "Mateus Carniato",
+			"email": "mateus.carniatto@gmail.com",
+			"url": "github.com/carniatto"
+		}
+	],
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
