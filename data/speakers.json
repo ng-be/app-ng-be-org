@@ -68,7 +68,7 @@
 		"id": "5",
 		"firstName": "Maria",
 		"name": "Korneeva",
-		"picture": "https://drive.google.com/file/d/1kawzaANEgPzwetVtuJBrR973UDQoR1q7/view?usp=sharing",
+		"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-d6efc.appspot.com/o/maria_korneeva.jpeg?alt=media&token=f3342890-efbd-430a-bad2-706cf100b97e",
 		"description": "<p>Maria is a Frontend Technology Lead at Aleri with current focus on Angular. She writes for ng-conf and speaks now and there at tech meetups and conferences. In her tweets and articles Maria likes to share her learnings from everyday coding. Fun fact: she illustrates her stories herself because she likes drawing.</p>",
 		"social": {
 			"twitter": "BrowserPerson",
@@ -116,11 +116,12 @@
 		"id": "8",
 		"firstName": "Pete",
 		"name": "Bacon Darwin",
-		"picture": "https://photos.google.com/share/AF1QipPu-1Ez7J_9tbXATEucLy-yPlvM5Hz1QYSS5ICMzEXGXjlcpKXjxq8oBVZXoXcGuQ/photo/AF1QipP66Nzj2692VDbKSc1ADLuxF8qUPyKyjdS2_0Mr?key=dEUwZk03RW5DWHBUSnd4Ym5RN3M2R19yLXlYRTRn",
+		"picture": "https://lh3.googleusercontent.com/pw/AM-JKLWh6Is_rdirZF4sxv_TJtDSpK5YlXQ4YM5KBt3OicPp6_k1JtGEcyLSVhxO6FvlsZNtWch2x8Y9utWvbK19I7i-Hi15M4GGMw88xVuRnLQ-hCRMHaF67J4yu_91d-mJRJ8Ajc_r_JcL68ARnUoVS4V0WA=w1146-h1528-no",
 		"description": "<p>Pete is one of the longest standing members of the Angular team. He has led development of AngularJS, and more recently been involved in i18n and compiler tooling for Angular.</p><p>He wrote the most successful book on AngularJS, gives talks and workshops on Angular and is a co-organiser of AngularConnect.</p>",
 		"social": {
 			"twitter": "petebd",
-			"github": "petebacondarwin"
+			"github": "petebacondarwin",
+			"website": "https://www.bacondarwin.com/"
 		},
 		"talk": {
 			"id": "15",
@@ -131,7 +132,7 @@
 		"id": "9",
 		"firstName": "Joost",
 		"name": "Koehoorn",
-		"picture": "https://slack-files.com/T040VPWEE-F01BJN99P8D-9eb6c8f869",
+		"picture": "https://files.slack.com/files-pri/T040VPWEE-F01BJN99P8D/image_from_ios.jpg?pub_secret=9eb6c8f869",
 		"description": "<p>Joost is a software engineer from the Netherlands where he works at Blueriq during the day and on the Angular team by night. He has a broad interest in computer science and compilers in particular, which is why he is typically contributing to Angular's compilation pipeline. Since 2018, he has worked on Angular's Ivy compiler, the template type-checker, ngcc, and the new library distribution format.</p>",
 		"social": {
 			"twitter": "JoostK",
@@ -162,7 +163,7 @@
 		"id": "11",
 		"firstName": "Sam",
 		"name": "Bellen",
-		"picture": "https://www.dropbox.com/s/me1lb9t8ix3gvzn/sam2.jpg?dl=0",
+		"picture": "https://uc0e6716ae5747b9e3a4c830577d.previews.dropboxusercontent.com/p/thumb/ABX5rymfge7cT_0xVvdtYYnhnNuk3nmwjMrpybntngUrzIRMSqkoM2cfH5Q9S0L_GeFoZ3F-Enfbv_3IblQa6h5s3DE6oMdDr-3gyk3ZQIXt-X3Fc0R61OZ01F2txcBqrVC3FdUI5PSx1ac-teQXIdqZVFjXv5YTeHNLsyOhnpr2tFYs_qDLsoZ8UmKmsG5t_tw5KRcYV1a6PvGXBO4uHuGXi2Erz01nJDED4cTevzMePuZcEQi2vbfZOZp40kueP8GCGgkh7hFYBALwQaYG3nnOgk5EnGgh8mMmHueibz3Zwy0cSUXqwD7WzG5EyC-8aEUUQX80lR6a_Gy3U0WFU4OQta0TxvIpEblnoWj7f_FbNVAcGUrhcxXG-ksr0Pp0XPk/p.jpeg",
 		"description": "<p>I'm a Google Developer Expert who works as a Senior Developer Advocate Engineer at Auth0. At Auth0 we're trying to make authentication and identification as easy as possible, while still keeping it secure.</p>",
 		"social": {
 			"twitter": "sambego",
@@ -178,7 +179,7 @@
 		"id": "12",
 		"firstName": "Igor",
 		"name": "Minar",
-		"picture": "https://photos.google.com/share/AF1QipNGBtawGivINtJsn8f9vTmt8rd334EQQwQuRYDSADZhaUY0Hk0RO365mFyDwavOig/photo/AF1QipON6cBhEL8OCwbKs-cIcvbfCYPYyFSQVxGiAXAW?key=WWllTzY1VWpEVFFEcllWNUJZYTNVRW9NUk5nWm5R",
+		"picture": "https://lh3.googleusercontent.com/pw/AM-JKLVk56zZJe2iPovvZH3fGO_U1tvedibUWif-qp8OXCMN9JvKZem47ae30QIRxGrdUl4RrjtUiw5_htw-DxKvNZtboxngzRpd9GYCUvl5I7yqcdWa9hIvLJECry2guisRRXtzf_pva9P6ciMgJEiHmlG9Qw=s1446-no?authuser=0",
 		"description": "<p>Igor loves the Web & open-source, empowering developers, and delighting users. He's been fortunate to have been part of Angular / AngularJS from the very beginning. For the last many years he's served as the Angular Uber TL / Technical lead.</p>",
 		"social": {
 			"twitter": "IgorMinar",

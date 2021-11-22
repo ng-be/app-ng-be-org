@@ -132,7 +132,7 @@
 				"id": "5",
 				"firstName": "Maria",
 				"name": "Korneeva",
-				"picture": "https://lh3.googleusercontent.com/HgAtP5CKK9FGRskg6hAd2GAz_ore_0MMlHIKeJcr2PI63tRZSYODoXrHl6ckHfBaGdh-rx0cTne7duYVTcuXRe8XbB1GiyQicXnJOwe92df02iI62s_rcsITz3SSqJ_XCDub7pjqZc6ZYcqHtWCidrikBtMjo-dyDyd7u4WeVStSo7D44J7Uk_s8PsaGnhSR7-7V3246MpobvU9aVnuFYqQSSfB0NY3V2OKqmEAORVYDtGavB2U2jkaZxGtTbxHO9yye_wUWcDz3R86CsQ7VdvbW3ODsg0QXT6lqn51YkAra_Ibgk7-sHwc3DPNAmy-xtKD9rKmxh__PfJg2djEiTJ5LoNSMSNokgnptuaTSFLi-yNQPmlAcH9iGh-GTsYHmNa16GviOgYIoh0n7W7hqLFp-ijWkdRdVJIayiy4UI5J6qYi6-OHdcxnpmlRmT6MbhfzVuXsj72G4fYWU-Ge8WifT36rQJ_4af8yeySFT9c-cYvXs5QetEYWteYNN4IZeEa3OQvJqERd05t7kKVp21PLFgob8s6opAYEIJ7kz_SjdYoAfiIIx4WLdQfdRb-w3aZvn5dTmyByA-If4KlLhbqaJTddkzkdpkggmwVOEgkJvR6PwLbEtQfzJsN5OTKAPuJJpG2LXBRGpLUfaKehU_N8N0lnqyH0LfCVtgwoCa-RphAjX7l3kMnL8MKN_B87op3JvodgMOoJ98iJI0JLjEzVH=w2900-h1940-no?authuser=0"
+				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-d6efc.appspot.com/o/maria_korneeva.jpeg?alt=media&token=f3342890-efbd-430a-bad2-706cf100b97e"
 			}
 		],
 		"takeaways": [
@@ -176,7 +176,7 @@
 	{
 		"id": "13",
 		"title": "Sponsor Talk: Ordina",
-		"description": "<p>Ordina believes in a digital world that helps people, companies and society forwards. The application of ICT plays an essential role in solving social and business issues. Thus, technology can help to create a breakthrough in making government more ef cient, in keeping care affordable and in guaranteeing secure internet transactions. As creators, architects and administrators of the digital world, we have expertise to make organisations more agile by continuously improving business processes and ICT.</p><p>First and foremost, Ordina is a people company and is one of the top ICT employers. The quality of our service is determined by the level of our professionals. For that reason we pay close attention to our personnel policy and we focus on the growth and development of employees.</p><p>With over 2,900 employees, Ordina is the largest, independent ICT-service provider in the Benelux. We are active in the  nancial services, industry, care and government sectors. That needs people who are just as dedicated and enterprising as we are. People who look beyond the technology.</p><p>Are you a fan of technical and cultural trends such as Microservices and DevOps? Do you want to help business in their transformation to cloud-native market disruptors? Are you eager to use Angular in your next project? To turn your hobby into your profession and implement end-to-end Internet of Things solutions for our customers? To participate in workshops, organised by your colleagues, or attend well-known international conferences to further enhance your level of competence as a developer? Then Ordina’s Java unit (JWorks) or Microsoft (NCore) is the ideal place for you! You will join a creative, professional and dynamic team! Feel free to discover our Accelerator program.</p>",
+		"description": "<p>IT for People. Ordina believes in a digital world that helps people to move ahead. We are helping to create a better and more pleasant society by realizing sustainable innovations together with our clients.</p>",
 		"startDate": "2020-12-03T14:15:00+01:00",
 		"endDate": "2020-12-03T14:25:00+01:00",
 		"type": "sponsor"
@@ -210,7 +210,7 @@
 				"id": "8",
 				"firstName": "Pete",
 				"name": "Bacon Darwin",
-				"picture": "https://photos.google.com/share/AF1QipPu-1Ez7J_9tbXATEucLy-yPlvM5Hz1QYSS5ICMzEXGXjlcpKXjxq8oBVZXoXcGuQ/photo/AF1QipP66Nzj2692VDbKSc1ADLuxF8qUPyKyjdS2_0Mr?key=dEUwZk03RW5DWHBUSnd4Ym5RN3M2R19yLXlYRTRn"
+				"picture": "https://lh3.googleusercontent.com/pw/AM-JKLWh6Is_rdirZF4sxv_TJtDSpK5YlXQ4YM5KBt3OicPp6_k1JtGEcyLSVhxO6FvlsZNtWch2x8Y9utWvbK19I7i-Hi15M4GGMw88xVuRnLQ-hCRMHaF67J4yu_91d-mJRJ8Ajc_r_JcL68ARnUoVS4V0WA=w1146-h1528-no"
 			}
 		],
 		"takeaways": []
@@ -242,7 +242,7 @@
 	{
 		"id": "18",
 		"title": "Sponsor Talk: Sofico",
-		"description": "<p>Sofico is the world’s leading supplier of mission critical software solutions for automotive leasing, financing and fleet and mobility management companies. Its software is used by a broad range of renowned leasing companies all over the world.</p><p>Sofico was founded in 1988 in Ghent, Belgium and has over 30 years’ experience and business expertise in the leasing and fleet management industry. It is privately owned, independent and currently employs 280 people.</p><p>Sofico has installed its systems in 22 countries worldwide.</p>",
+		"description": "<p>We are a privately owned, independent, international company.</p><p>From our roots as a tiny Belgian start-up with a lofty vision, we grew into the leading provider of enterprise software for automotive financing, leasing, renting and sharing.</p><p>Our 250 experts service customers in 22 countries from our offices in Australia, Belgium, France, Germany, Japan, Mexico, Netherlands and the UK.</p>",
 		"startDate": "2020-12-03T16:30:00+01:00",
 		"endDate": "2020-12-03T16:35:00+01:00",
 		"type": "sponsor"
@@ -301,7 +301,7 @@
 				"id": "12",
 				"firstName": "Igor",
 				"name": "Minar",
-				"picture": "https://photos.google.com/share/AF1QipNGBtawGivINtJsn8f9vTmt8rd334EQQwQuRYDSADZhaUY0Hk0RO365mFyDwavOig/photo/AF1QipON6cBhEL8OCwbKs-cIcvbfCYPYyFSQVxGiAXAW?key=WWllTzY1VWpEVFFEcllWNUJZYTNVRW9NUk5nWm5R"
+				"picture": "https://lh3.googleusercontent.com/pw/AM-JKLVk56zZJe2iPovvZH3fGO_U1tvedibUWif-qp8OXCMN9JvKZem47ae30QIRxGrdUl4RrjtUiw5_htw-DxKvNZtboxngzRpd9GYCUvl5I7yqcdWa9hIvLJECry2guisRRXtzf_pva9P6ciMgJEiHmlG9Qw=s1446-no?authuser=0"
 			}
 		],
 		"takeaways": [
