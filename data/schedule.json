@@ -3,89 +3,74 @@
 		"id": "1",
 		"title": "Continental Angular breakfast",
 		"description": "<p>Enjoy the continental breakfast buffet together with the speakers</p>",
-		"startDate": "2019-12-06T07:30:00+01:00",
-		"endDate": "2019-12-06T08:45:00+01:00",
+		"startDate": "2020-12-03T07:30:00+01:00",
+		"endDate": "2020-12-03T08:45:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "2",
 		"title": "Opening Ceremony",
 		"description": "<p>Enjoy the continental breakfast buffet together with the speakers</p>",
-		"startDate": "2019-12-06T08:45:00+01:00",
-		"endDate": "2019-12-06T09:00:00+01:00",
+		"startDate": "2020-12-03T08:45:00+01:00",
+		"endDate": "2020-12-03T09:00:00+01:00",
 		"type": "talk"
 	},
 	{
 		"id": "3",
-		"title": "Tackling Component-state Reactively",
-		"description": "<p>Ever heard about a subscription-less component? Think about all the observables you have to subscribe to, and even if you use the async pipe, there are situations where you can’t. It’s a lot of things you have to manage. Is there a smart way to do all this?</p><p>@ngrx/store did a great job in managing global state in SPAs.</p><p>However, nobody talked about the complexity and pain of managing the local component state.</p><ul><li>Encapsulation and instantiation of local state</li><li>Managing the structure of the state</li><li>The late subscriber problem</li><li>Composition and aggregation of hot and cold observables</li><li>Sharing references over observables</li><li>Managing Subscriptions and Side-Effects</li><li>ChangeDetection and zone.js</li><li>Manage Highly fluctuating state-structures</li></ul><p>After this talk, you are able to solve all of these problems with a clean and structured approach. In a final step, we will pull together the above problems and implement the solutions, driven by a central unit and takes over all the mentioned problems.</p>",
-		"startDate": "2019-12-06T08:45:00+01:00",
-		"endDate": "2019-12-06T09:00:00+01:00",
+		"title": "Performance at scale",
+		"description": "<p>The async pipe is boring! We will skip ChangeDetection OnPush & trackBy and jump straight to the guts of performance. Exciting live demos as well as deep knowledge is the core of this session.</p><p>We will boost your knowledge and go way beyond the basics. In the end you will go home with lots of exercises and you will be impressed by how much faster your application can get.</p><p>Together we will have a close look on how an auditing process looks like how to read flamecharts, navigate through the network tab and increase our knowledge on network analysis. We will have a spin on the new Angular Performance DevTools, and even go fully zone-less with our Angular app.</p>",
+		"startDate": "2020-12-03T09:00:00+01:00",
+		"endDate": "2020-12-03T09:30:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
 				"id": "1",
 				"firstName": "Michael",
 				"name": "Hladky",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/michael-hladky.jpeg?alt=media&token=69127873-0c05-4994-af5f-865561dc24fa"
-			},
-			{
-				"id": "2",
-				"firstName": "Jan-Niklas",
-				"name": "Wortmann",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/jan-niklas-wortmann.jpeg?alt=media&token=dcc1b7fd-d32e-41c5-a763-e0dc5e77b995"
+				"picture": "https://camo.githubusercontent.com/6d47c99b440ab9df88301ad7641c16e3a2d25a156b4ea89023a6be683f73edc5/68747470733a2f2f692e696d6775722e636f6d2f695134714768682e6a7067"
 			}
 		],
-		"takeaways": [
-			"Move low level subscription handling and state composition into a local service.",
-			"ChangeDetection is triggered ONLY by a pipe or a directive.",
-			"Multicast and Unicast is not the same as Hot and Cold.",
-			"Consider the late subscriber problem.",
-			"Consider Component live-time and dynamic state.",
-			"Reactive state management also allows you to have the full observable context of next, error, complete.",
-			"If you code reactively you actually are already ready to go zone-less."
+		"takeaways": [			
+			"How to record and analyze flame charts",
+			"How to document performance issues and measure improvements",
+			"How to detect performance bottlenecks",
+			"Hands down with Angular’s brand new DevTools",
+			"Network analysis and improvement strategies",
+			"Change detection strategies & IVY features",
+			"Best practices of DOM Structure and CSS",
+			"Runtime performance of scripting, rendering, and painting"
 		]
 	},
 	{
 		"id": "4",
-		"title": "RxJS Recipes",
-		"description": "<p>RxJS is one of my personal favorite technologies. But, the problem with RxJS is the very high learning curve. In this talk, we will take a look at some patterns that can be applied to Angular applications and some more advanced recipes that you should be able to use in your own projects!</p>",
-		"startDate": "2019-12-06T09:45:00+01:00",
-		"endDate": "2019-12-06T10:15:00+01:00",
+		"title": "Storybook you Angular app with Nx",
+		"description": "<p>Storybook helps you build \"UI components in isolation\". Combined with Nx, you can have your UI libraries easily \"browsable\" and testable by your whole dev and UI/UX teams. Combined with Angular, your project will really take off. Nx will give you the tools to generate, build, run, test and migrate your Storybooks across your apps and libraries. And this is something you don't want to miss.</p>",
+		"startDate": "2020-12-03T09:35:00+01:00",
+		"endDate": "2020-12-03T10:05:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
 				"id": "3",
-				"firstName": "Kwinten",
-				"name": "Pisman",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/kwinten_pisman.png?alt=media&token=a5d4d26b-c65f-4d59-8205-bccf328eacf4"
+				"firstName": "Katerina",
+				"name": "Skroumpelou",
+				"picture": "https://i.imgur.com/NxNwARH.jpg"
 			}
 		],
-		"takeaways": [
-			"Learn a divide and conquer way of thinking.",
-			"See some much used RxJS patterns.",
-			"Write better RxJS code yourself"
-		]
+		"takeaways": []
 	},
 	{
 		"id": "5",
-		"title": "Exploring WebVR",
-		"description": "<p>Come and explore WebVR with us! We’ll be taking you from what VR actually is, how it works and why you should consider it, to learning how to use Babylon.js to create your own WebVR experiences.</p><p>And all of this without any previous knowledge needed. Then we will explore how we can add a WebVR project to our own Angular application.</p>",
-		"startDate": "2019-12-06T10:20:00+01:00",
-		"endDate": "2019-12-06T10:50:00+01:00",
+		"title": "TypeScript: Gradual, structural, dynamic, static.",
+		"description": "<p>TypeScript is probably one of the most unique programming languages in the world. Instead of defining language syntax and semantics on its own, it sits on top of JavaScript, which is used by millions! This brings us to one of TypeScript’s biggest use-cases: Being a way to formalise JavaScript’s most erratic behaviour.</p><p>But how can a type-system grasp all the powerful flexibility of a programming language so inherently dynamic, without restricting JavaScript’s expressiveness a single bit?</p><p>In this talk, we’re going to see how! We redefine types for a single function bit by bit, getting more type-safe with each step. Dynamic behaviour with static types. In the end, only JavaScript remains.</p>",
+		"startDate": "2020-12-03T10:10:00+01:00",
+		"endDate": "2020-12-03T10:40:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
-				"id": "4",
-				"firstName": "Sherry",
-				"name": "List",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/sherry-list.jpg?alt=media&token=1f000ad3-7094-4b93-a14f-b3b4c2b4886f"
-			},
-			{
-				"id": "5",
-				"firstName": "Ana",
-				"name": "Cidre",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/ana-cidre.jpg?alt=media&token=00225599-0871-49f7-932b-d1faec9c433a"
+				"id": "3",
+				"firstName": "Stefan",
+				"name": "Baumgartner",
+				"picture": "https://fettblog.eu/wp-content/uploads/stefan-grayscale-tailored.jpeg"
 			}
 		]
 	},
@@ -93,232 +78,250 @@
 		"id": "6",
 		"title": "Networking",
 		"description": "<p>Break with coffees, teas, juices, fresh yoghurts and fruits.</p>",
-		"startDate": "2019-12-06T10:50:00+01:00",
-		"endDate": "2019-12-06T11:20:00+01:00",
+		"startDate": "2020-12-03T10:40:00+01:00",
+		"endDate": "2020-12-03T11:10:00+01:00",
 		"type": "break"
 	},
 	{
 		"id": "7",
 		"title": "Sponsor Talk: ARHS",
 		"description": "<p>Arηs Digital is a strong player in the domain of Digital Transformation, Digital Business Platforms, Web Development, Open Source Software Development and Business Intelligence. We apply state-of- the art Open Source technologies (Micro- services (Spring Boot, Spring Cloud), Angular (4+), ...) and consult in complex matters. We are a believer of Agile Scrum Methodology and embrace end-to end IT projects.</p><p>We continuously reach out to talented people looking for interesting projects, a great team to work in and an attractive salary package. We reach out to all organizations looking for a professional partner to deliver their IT projects and programs in time and in budget.</p><p>“Companies don’t do business with each other. Business is done between people. It’s about trust, commitment and understanding.” – Gunther Roobaert, Managing Director Arηs Digital.</p>",
-		"startDate": "2019-12-06T11:20:00+01:00",
-		"endDate": "2019-12-06T11:25:00+01:00",
+		"startDate": "2020-12-03T11:10:00+01:00",
+		"endDate": "2020-12-03T11:15:00+01:00",
 		"type": "sponsor"
 	},
 	{
 		"id": "8",
-		"title": "Authentication with OpenID Connect in Angular applications",
+		"title": "Securing Angular with Trusted Types",
 		"description": "<p>User authentication has become so complex that developers should not touch it anymore. Anyone building a modern application should consider using an identity provider that handles authentication. However, doing so requires the use of OpenID Connect (OIDC), which brings its own complexity.</p><p>In this talk, we look at securely implementing OIDC in an Angular application. We investigate which flow to use in which scenario. We look at the security properties in OpenID Connect, and how to ensure your application respects them. In the end, you will walk away with practical advice on implementing authentication with OIDC in Angular.</p>",
-		"startDate": "2019-12-06T11:30:00+01:00",
-		"endDate": "2019-12-06T12:00:00+01:00",
+		"startDate": "2020-12-03T11:20:00+01:00",
+		"endDate": "2020-12-03T11:50:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
-				"id": "6",
+				"id": "4",
 				"firstName": "Philippe",
 				"name": "De Ryck",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/philippe-de-ryck.jpeg?alt=media&token=6dacfa6e-239e-4ddc-a649-bcbfc9417b2d"
+				"picture": "https://www.dropbox.com/sh/5257z7533q8np6z/AAAMgMteBfnq4bI_TO3MVgJWa?dl=0"
 			}
 		],
 		"takeaways": [
-			"Do not build custom authentication mechanisms.",
-			"Delegate authentication with OpenID Connect.",
-			"Use the right OIDC flow for your application.",
-			"Use a proper library to integrate OIDC.",
-			"Remember that the devil is always in the details."
+			"Trusted Types (TT) targets DOM-based XSS ",
+			"TT support is built-in in Angular",
+			"TT applies to your entire application, including dependencies",
+			"TT is awesome!"
 		]
 	},
 	{
 		"id": "9",
-		"title": "Enterprise Grade Angular Reactive Forms",
-		"description": "<p>Angular is particularly popular at large enterprises. Most of the time those lines of business apps are very data driven and forms heavy. While Angular gives us two different approaches to implementing forms, neither of them is very satisfying, nor do they help keep the maintainability high especially in large enterprise apps.</p><p>In this talk I’m going to present you a third way of implementing forms in Angular that will help us cope with some of these challenges. We’ll dive into creating truly reactive, fully configuration based forms, covering things like centralised theming, implementing cross-cutting behaviours or even generating forms on the server-side.</p>",
-		"startDate": "2019-12-06T12:05:00+01:00",
-		"endDate": "2019-12-06T12:35:00+01:00",
+		"title": "Flexible data flow architecture in Angular",
+		"description": "<p>Web applications are there to move data around in a useful and user-friendly way. Being quite opinionated, Angular defines its own data flow rules and provides specific ways to pass it around. You are probably already thinking about input and output binding and services, but it’s just the tip of the iceberg! I’ve counted more than 15 interaction options in total!</p><p>Let’s zoom out and have a look at the general principles rather than going into implementation of specific features. In this talk we are going to structure ways of information sharing across your app and discuss the underlying design patterns.</p><p>Being able to chose how you organise your data flows allows you to adjust the implementation to your use case. We will explore some examples where you can vary the degree of flexibility depending on the way you structure your components and services. However, with great flexibility comes great responsibility. So we will also touch upon the strengths and weaknesses of each data sharing approach.</p>",
+		"startDate": "2020-12-03T11:55:00+01:00",
+		"endDate": "2020-12-03T12:15:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
-				"id": "7",
-				"firstName": "Juri",
-				"name": "Strumpflohner",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/juri-strumpflohner.png?alt=media&token=ac31dcb2-2127-4913-94b7-c826a244be74"
+				"id": "5",
+				"firstName": "Maria",
+				"name": "Korneeva",
+				"picture": "https://drive.google.com/file/d/1kawzaANEgPzwetVtuJBrR973UDQoR1q7/view?usp=sharing"
 			}
 		],
 		"takeaways": [
-			"Formly, the powerful alternative for creating highly dynamic, reactive Angular forms.",
-			"Formly Basics: setup and configuration.",
-			"Theming and customization: custom form controls with Formly.",
-			"Truly reactive forms.",
-			"Cross-cutting behavior with Formly"
+			"Know your (data sharing) options",
+			"Chose your option wisely, namely according to the use case and the reasonable degree of flexibility it provides"
 		]
 	},
 	{
 		"id": "10",
-		"title": "Sponsor Talk: AXXES",
-		"description": "<p>Axxes is a full-service project sourcing organization that delivers high quality ICT services when it comes to software development, testing, system engineering, project management and data. Over 350 experienced IT consultants make a difference each day for our clients. The requested knowledge when you need it, the right person for the right project. IT is about people!</p>",
-		"startDate": "2019-12-06T12:35:00+01:00",
-		"endDate": "2019-12-06T12:40:00+01:00",
-		"type": "sponsor"
+		"title": "Scully, past the basics",
+		"description": "<p>In this talk I'll show a couple of more advanced Scully concepts. an a novel use case.</p><p>you will learn to look past a conventional application, and see what Scully can add to your application that is usually out of reach.</p>",
+		"startDate": "2020-12-03T12:20:00+01:00",
+		"endDate": "2020-12-03T12:40:00+01:00",
+		"type": "talk",
+		"speakers": [
+			{
+				"id": "6",
+				"firstName": "Sander",
+				"name": "Elias",
+				"picture": "https://avatars.githubusercontent.com/u/1249083"
+			}
+		],
+		"takeaways": []
 	},
 	{
 		"id": "11",
-		"title": "Networking",
-		"description": "<p>Lunch buffet with fresh soup, salads, selections of cold and warm dishes, dessert.</p>",
-		"startDate": "2019-12-06T12:40:00+01:00",
-		"endDate": "2019-12-06T14:10:00+01:00",
-		"type": "break"
-	},
-	{
-		"id": "12",
-		"title": "Sponsor Talk: Ordina",
-		"description": "<p>Ordina believes in a digital world that helps people, companies and society forwards. The application of ICT plays an essential role in solving social and business issues. Thus, technology can help to create a breakthrough in making government more ef cient, in keeping care affordable and in guaranteeing secure internet transactions. As creators, architects and administrators of the digital world, we have expertise to make organisations more agile by continuously improving business processes and ICT.</p><p>First and foremost, Ordina is a people company and is one of the top ICT employers. The quality of our service is determined by the level of our professionals. For that reason we pay close attention to our personnel policy and we focus on the growth and development of employees.</p><p>With over 2,900 employees, Ordina is the largest, independent ICT-service provider in the Benelux. We are active in the  nancial services, industry, care and government sectors. That needs people who are just as dedicated and enterprising as we are. People who look beyond the technology.</p><p>Are you a fan of technical and cultural trends such as Microservices and DevOps? Do you want to help business in their transformation to cloud-native market disruptors? Are you eager to use Angular in your next project? To turn your hobby into your profession and implement end-to-end Internet of Things solutions for our customers? To participate in workshops, organised by your colleagues, or attend well-known international conferences to further enhance your level of competence as a developer? Then Ordina’s Java unit (JWorks) or Microsoft (NCore) is the ideal place for you! You will join a creative, professional and dynamic team! Feel free to discover our Accelerator program.</p>",
-		"startDate": "2019-12-06T14:10:00+01:00",
-		"endDate": "2019-12-06T14:20:00+01:00",
+		"title": "Sponsor Talk: AXXES",
+		"description": "<p>Axxes is a full-service project sourcing organization that delivers high quality ICT services when it comes to software development, testing, system engineering, project management and data. Over 350 experienced IT consultants make a difference each day for our clients. The requested knowledge when you need it, the right person for the right project. IT is about people!</p>",
+		"startDate": "2020-12-03T12:40:00+01:00",
+		"endDate": "2020-12-03T12:45:00+01:00",
 		"type": "sponsor"
 	},
 	{
+		"id": "12",
+		"title": "Networking",
+		"description": "<p>Lunch buffet with fresh soup, salads, selections of cold and warm dishes, dessert.</p>",
+		"startDate": "2020-12-03T12:45:00+01:00",
+		"endDate": "2020-12-03T14:15:00+01:00",
+		"type": "break"
+	},
+	{
 		"id": "13",
-		"title": "The Secrets Behind Angular’s Lightning Speed",
-		"description": "<p>Angular developers rarely have the need to write super optimized code. In application development we tend to favor readability over optimization. But this approach doesn’t guarantee fast execution of the code. With frameworks, the situation is reversed. Frameworks have to be really fast. Interestingly, there are techniques that make JavaScript code run faster. You’ve probably heard about monomorphism, bit fields or bloom filters, right? Maybe you’ve even used some of them. Over the past year I’ve seen them all and a bunch of other interesting techniques while reverse- engineering Angular. In this talk I want to share my findings with you. You may end up applying this knowledge at work or, who knows, may even use it to make Angular run even faster.</p>",
-		"startDate": "2019-12-06T14:25:00+01:00",
-		"endDate": "2019-12-06T15:00:00+01:00",
+		"title": "Sponsor Talk: Ordina",
+		"description": "<p>Ordina believes in a digital world that helps people, companies and society forwards. The application of ICT plays an essential role in solving social and business issues. Thus, technology can help to create a breakthrough in making government more ef cient, in keeping care affordable and in guaranteeing secure internet transactions. As creators, architects and administrators of the digital world, we have expertise to make organisations more agile by continuously improving business processes and ICT.</p><p>First and foremost, Ordina is a people company and is one of the top ICT employers. The quality of our service is determined by the level of our professionals. For that reason we pay close attention to our personnel policy and we focus on the growth and development of employees.</p><p>With over 2,900 employees, Ordina is the largest, independent ICT-service provider in the Benelux. We are active in the  nancial services, industry, care and government sectors. That needs people who are just as dedicated and enterprising as we are. People who look beyond the technology.</p><p>Are you a fan of technical and cultural trends such as Microservices and DevOps? Do you want to help business in their transformation to cloud-native market disruptors? Are you eager to use Angular in your next project? To turn your hobby into your profession and implement end-to-end Internet of Things solutions for our customers? To participate in workshops, organised by your colleagues, or attend well-known international conferences to further enhance your level of competence as a developer? Then Ordina’s Java unit (JWorks) or Microsoft (NCore) is the ideal place for you! You will join a creative, professional and dynamic team! Feel free to discover our Accelerator program.</p>",
+		"startDate": "2020-12-03T14:15:00+01:00",
+		"endDate": "2020-12-03T14:25:00+01:00",
+		"type": "sponsor"
+	},
+	{
+		"id": "14",
+		"title": "Federated Angular: Why and How?",
+		"description": "<p>The much-discussed Micro-Frontends have challenges and trade-offs. Many wonder whether their benefits would pay off for their projects and how to implement them. This session sheds some light on the matter.</p><p>We start by exploring several real-world use cases I have helped plan and implement in recent years. They are from different industries: Finance and accounting, banking, and insurance. We also discuss projects where we deliberately decided against Micro-Frontends. With this background, we set out reasons to use, or not use, this new architectural style.</p><p>In the second part we look at implementation strategies such as Module Federation, a game-changer for Micro-Frontends even beyond SPA. After seeing how to integrate it with Angular and the CLI, we discuss consequences, trade-offs, and alternatives.</p><p>By the end, it will be clear whether Micro-Frontends are a good choice for your project and how to implement them.</p>",
+		"startDate": "2020-12-03T14:30:00+01:00",
+		"endDate": "2020-12-03T15:00:00+01:00",
+		"type": "talk",
+		"speakers": [
+			{
+				"id": "7",
+				"firstName": "Manfred",
+				"name": "Steyer",
+				"picture": "https://www.angulararchitects.io/wp-content/uploads/2019/04/manfred-steyer.jpg"
+			}
+		],
+		"takeaways": []
+	},
+	{
+		"id": "15",
+		"title": "JavaScript - Generations",
+		"description": "<p>Generators are a cool feature of JavaScript, available since ES6, which many developers either aren't aware of or don't understand. This talk will introduce you to some of the possibilities that generators bring to the table.</p>",
+		"startDate": "2020-12-03T15:05:00+01:00",
+		"endDate": "2020-12-03T15:25:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
 				"id": "8",
-				"firstName": "Max",
-				"name": "Koretskyi",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/max-koretskyi.jpeg?alt=media&token=3803762b-4a7b-40a7-bef2-6360be03e80b"
+				"firstName": "Pete",
+				"name": "Bacon Darwin",
+				"picture": "https://photos.app.goo.gl/uk7EbYnqmooCK2no8"
 			}
 		],
-		"takeaways": [
-			"Monomorphic code executes up to 100 times faster than polymorphic.",
-			"Bloom filters can be used as efficient optimization layer for fast search.",
-			"Angular’s compiler significantly contributes to the speed of the framework."
-		]
-	},
-	{
-		"id": "14",
-		"title": "E2E Testing at Half the Cost",
-		"description": "<p>E2E tests give you confidence, but are too slow. Unit tests are fast, but don’t give you confidence. Either you test things that don’t matter or your tests are too slow to be helpful. Or you give up on testing completely.</p><p>What if you could get the confidence of e2e tests at the speed of unit tests? Well, almost.</p><p>Learn how to use Nx, Storybook and Cypress to write UI tests that give you a confidence-level close to that of an e2e test while leveraging Nx’s affected command to only run the UI tests that are affected by a particular PR.</p>",
-		"startDate": "2019-12-06T15:00:00+01:00",
-		"endDate": "2019-12-06T15:30:00+01:00",
-		"type": "talk",
-		"speakers": [
-			{
-				"id": "9",
-				"firstName": "Isaac",
-				"name": "Mann",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/isaac-mann.jpg?alt=media&token=d81cbec7-5239-4073-af00-5b7ac8ee7339"
-			}
-		],
-		"takeaways": [
-			"Write tests that increase your confidence in your app.",
- 			"Don’t run unnecessary tests.",
- 			"Use Storybook to isolate parts of your application.",
- 			"Use Cypress to test like a user.",
- 			"Use Nx to only run tests affected by a change."
-		]
-	},
-	{
-		"id": "15",
-		"title": "Master Tooling by Hacking the Angular Compiler",
-		"description": "<p>Nowadays, we can hardly imagine the web without tooling. There are tools for code generation, transformations, and most importantly build tools. Build tools play an essential role in modern web development. They make frameworks like Angular, React, or Vue more approachable and simplify the entire process from start to end.</p><p>For example, a build tool manipulates our code in powerful ways; it most likely down levels the code, makes it smaller, and creates a production- grade bundle that is ready for deployment.</p><p>But how does that work? To understand this, we will specifically look at Angular’s build system to implement our own custom template syntax.</p><p>Along the way, we explore tools such as Webpack, the Angular Compiler, and most importantly an Abstract Syntax Tree (AST). ASTs are the basic building blocks of most web tooling that empowers tools like Angular Schematics, Prettier, Babel, or TSLint to do their job.</p><p>This talk should give you an insight into how Angular builds our applications, and act as an intro to Abstract Syntax Trees, how they work, and what we can do with them.</p>",
-		"startDate": "2019-12-06T15:35:00+01:00",
-		"endDate": "2019-12-06T16:00:00+01:00",
-		"type": "talk",
-		"speakers": [
-			{
-				"id": "9",
-				"firstName": "Dominic",
-				"name": "Elm",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/dominic-elm.jpg?alt=media&token=84f40b95-2bdc-4d7d-b668-603803e30751"
-			}
-		]
+		"takeaways": []
 	},
 	{
 		"id": "16",
-		"title": "Networking",
-		"description": "<p>Break with coffees, teas, juices, energizers and snacks.</p>",
-		"startDate": "2019-12-06T16:05:00+01:00",
-		"endDate": "2019-12-06T16:35+01:00",
-		"type": "break"
-	},
-	{
-		"id": "17",
-		"title": "Sponsor Talk: Sofico",
-		"description": "<p>Sofico is the world’s leading supplier of mission critical software solutions for automotive leasing, financing and fleet and mobility management companies. Its software is used by a broad range of renowned leasing companies all over the world.</p><p>Sofico was founded in 1988 in Ghent, Belgium and has over 30 years’ experience and business expertise in the leasing and fleet management industry. It is privately owned, independent and currently employs 280 people.</p><p>Sofico has installed its systems in 22 countries worldwide.</p>",
-		"startDate": "2019-12-06T16:35:00+01:00",
-		"endDate": "2019-12-06T16:40:00+01:00",
-		"type": "sponsor"
-	},
-	{
-		"id": "18",
-		"title": "Sustainable Angular Architectures with Monorepos and Strategic Domain Driven Design",
-		"description": "<p>Monorepos allow huge enterprise applications to be subdivided into small and maintainable libraries. This is, however, only one side of the coin: We need to first define criteria for slicing our application into individual parts and we must establish rules for communication between them.</p><p>This session looks at a solution provided by Strategic Domain-Driven Design. Using an Angular-based case study, we investigate the idea of the ubiquitous language and the bounded context, sub-domains, and context mapping. Building on this, you will learn how to implement these ideas for Angular using a monorepo. We also discuss approaches for reducing coupling between the specific parts of our monorepo.</p><p>By the end, you will have a technical solution and appropriate methodology to build sustainable Angular solutions.</p>",
-		"startDate": "2019-12-06T16:45:00+01:00",
-		"endDate": "2019-12-06T17:15:00+01:00",
+		"title": "Getting to know the template type checker",
+		"description": "<p>In this talk we will explore how the Angular compiler is capable of type-checking your templates and reporting errors just like you would expect for TypeScript code. You will also learn how to make use of some more advanced features that the template type checker offers, allowing you to write better directives and achieve more type-safety in your templates.</p>",
+		"startDate": "2020-12-03T15:30:00+01:00",
+		"endDate": "2020-12-03T16:00:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
-				"id": "12",
-				"firstName": "Manfred",
-				"name": "Steyer",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/manfred-steyer.jpg?alt=media&token=9786aac9-b0e9-4fb5-a04c-f62c0b5af5e4"
+				"id": "9",
+				"firstName": "Joost",
+				"name": "Koehoorn",
+				"picture": "https://slack-files.com/T040VPWEE-F01BJN99P8D-9eb6c8f869"
 			}
-		],
-		"takeaways": [
-			"Cut your application into independent sub-domains.",
-			"Minimize communication and shared code between sub-domains.",
-			"Organize sub-domains as libraries in a mono repo.",
-			"Define access restrictions for the libraries to enforce your architecture."
 		]
 	},
 	{
+		"id": "17",
+		"title": "Networking",
+		"description": "<p>Break with coffees, teas, juices, energizers and snacks.</p>",
+		"startDate": "2020-12-03T16:00:00+01:00",
+		"endDate": "2020-12-03T16:30+01:00",
+		"type": "break"
+	},
+	{
+		"id": "18",
+		"title": "Sponsor Talk: Sofico",
+		"description": "<p>Sofico is the world’s leading supplier of mission critical software solutions for automotive leasing, financing and fleet and mobility management companies. Its software is used by a broad range of renowned leasing companies all over the world.</p><p>Sofico was founded in 1988 in Ghent, Belgium and has over 30 years’ experience and business expertise in the leasing and fleet management industry. It is privately owned, independent and currently employs 280 people.</p><p>Sofico has installed its systems in 22 countries worldwide.</p>",
+		"startDate": "2020-12-03T16:30:00+01:00",
+		"endDate": "2020-12-03T16:35:00+01:00",
+		"type": "sponsor"
+	},
+	{
 		"id": "19",
-		"title": "Dev Up",
-		"description": "<p>Attending a conference is a great way to further your dev career, in this talk we will discuss how to keep that momentum going after the conference is over!</p>",
-		"startDate": "2019-12-06T17:20:00+01:00",
-		"endDate": "2019-12-06T17:50:00+01:00",
+		"title": "Nx for Angular Developers",
+		"description": "<p>By now, you've probably heard of Nx from Nrwl. You might know that it’s a toolkit similar to Angular CLI, and it’s great for developing monorepos. But there’s so much more to Nx than just monorepos! In this talk, Jeff Cross will talk about everything Nx does to help you develop Modern Angular applications better and faster.</p>",
+		"startDate": "2020-12-03T16:40:00+01:00",
+		"endDate": "2020-12-03T17:00:00+01:00",
 		"type": "talk",
 		"speakers": [
 			{
 				"id": "10",
-				"firstName": "Bonnie",
-				"name": "Brennan",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/bonnie-brennan.png?alt=media&token=7a4a963e-f5bf-403f-8b21-c70bad4ea885"
-			},
-			{
-				"id": "11",
-				"firstName": "Samantha",
-				"name": "Brennan",
-				"picture": "https://firebasestorage.googleapis.com/v0/b/app-ng-be-org-b07d0.appspot.com/o/samantha-brennan.jpg?alt=media&token=e5633a86-0dc5-4a9a-a4c7-ef3ae638b1cd"
+				"firstName": "Jeff",
+				"name": "Cross",
+				"picture": "https://static.wixstatic.com/media/3081d4_343964d903c148b09f3dbddadd6100b9~mv2.jpg/v1/fill/w_557,h_560,al_c,lg_1,q_80/Image-empty-state.webp"
 			}
 		],
 		"takeaways": [
-			"Participate in the Angular Community!",
-			"The best way to learn is to teach!",
-			"Dev up!"
+			"Nx is for every app; not just large monorepos",
+			"Nx makes it easy to use modern tools like Cypress, Jest, and Prettier",
+			"Nx only builds and tests parts of your codebase that have changed, or could be affected by your change",
+			"Nx uses distributed computation caching and Distributed Task Execution to make CI and local development fast"
 		]
 	},
 	{
 		"id": "20",
-		"title": "Closing Cerenony",
-		"startDate": "2019-12-06T17:50:00+01:00",
-		"endDate": "2019-12-06T18:05:00+01:00",
-		"type": "talk"
+		"title": "No Way, JOSE!",
+		"description": "<p>Is your first thought when thinking about cryptography, “nope, that’s not for me!”? There’s no need to. When explained with simple examples, you can see the basics are not that complicated. The JavaScript Object Signing and Encryption, or JOSE for short is a framework that helps us deal with encryption. It describes ways to securely transfer data either signed (JWS) or encrypted (JWE). Let’s take a leap of faith and explore the wonderful world of cryptography together, shall we?</p>",
+		"startDate": "2020-12-03T17:05:00+01:00",
+		"endDate": "2020-12-03T17:35:00+01:00",
+		"type": "talk",
+		"speakers": [
+			{
+				"id": "11",
+				"firstName": "Sam",
+				"name": "Bellen",
+				"picture": "https://www.dropbox.com/s/me1lb9t8ix3gvzn/sam2.jpg?dl=0"
+			}
+		],
+		"takeaways": [
+			"Basics of encryption, signing, and hashing.",
+			"How JOSE standard can help us with encrypted content on the web using JSON Web Encryption (JWE) and JSON Web Keys (JWK)."
+		]
 	},
 	{
 		"id": "21",
-		"title": "Networking - Drinks",
-		"startDate": "2019-12-06T18:05:00+01:00",
-		"endDate": "2019-12-06T19:30:00+01:00",
-		"type": "break"
+		"title": "Fireside chat with Igor",
+		"description": "<p>Live discussion about Angular using a mix of prepared and live audience questions.</p>",
+		"startDate": "2020-12-03T17:40:00+01:00",
+		"endDate": "2020-12-03T18:10:00+01:00",
+		"type": "talk",
+		"speakers": [
+			{
+				"id": "12",
+				"firstName": "Igor",
+				"name": "Minar",
+				"picture": "https://photos.app.goo.gl/fY2a23ZaggBT8zTe9"
+			}
+		],
+		"takeaways": [
+			"Angular philosophy & values",
+			"Angular history",
+			"design decisions",
+			"Future plans for Angular"
+		]
 	},
 	{
 		"id": "22",
+		"title": "Closing Cerenony",
+		"startDate": "2020-12-03T18:10:00+01:00",
+		"endDate": "2020-12-03T18:25:00+01:00",
+		"type": "talk"
+	},
+	{
+		"id": "23",
+		"title": "Networking - Drinks",
+		"startDate": "2020-12-03T18:25:00+01:00",
+		"endDate": "2020-12-03T19:50:00+01:00",
+		"type": "break"
+	},
+	{
+		"id": "24",
 		"title": "End of Conference",
-		"startDate": "2019-12-06T19:30:00+01:00",
-		"endDate": "2019-12-07T00:00:00+01:00",
+		"startDate": "2020-12-03T19:50:00+01:00",
+		"endDate": "2020-12-04T00:00:00+01:00",
 		"type": "break"
 	}
 ]
