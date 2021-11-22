@@ -1,7 +1,7 @@
-import {promises as fs} from 'fs';
-import * as path from 'path';
 import * as firebase from 'firebase';
-import {environment} from './src/environments/environment.ngbe';
+import { promises as fs } from 'fs';
+import * as path from 'path';
+import { environment } from './src/environments/environment.prod';
 
 firebase.initializeApp(environment.firebase);
 
