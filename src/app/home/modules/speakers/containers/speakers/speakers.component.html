@@ -1,0 +1,15 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>Speakers</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-spinner *ngIf="loading$ | async; else speakerList"></ion-spinner>
+
+	<ng-template #speakerList>
+		<ng-container *ngIf="speakers$ | async as speakers">
+			<speaker-list [speakers]="speakers" (detail)="openDetail($event)" (url)="openUrl($event)"> </speaker-list>
+		</ng-container>
+	</ng-template>
+</ion-content>

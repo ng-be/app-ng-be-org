@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "app-ng-be-org-e6320": {
+      "hosting": {
+        "app": [
+          "app-ng-be-org-e6320"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "app-ng-be-org-e6320"
+  }
+}

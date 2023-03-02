@@ -1,0 +1,13 @@
+<ion-card (click)="detail.emit(speaker)" *ngFor="let speaker of speakers; trackBy: trackByFunction">
+	<ion-item>
+		<ion-avatar slot="start">
+			<img [src]="speaker.picture" decoding="async" />
+		</ion-avatar>
+		<h2>{{ speaker.firstName }} {{ speaker.name }}</h2>
+	</ion-item>
+
+	<ion-card-content class="speaker-card__content" [innerHTML]="speaker.description | firstParagraph">
+	</ion-card-content>
+
+	<speaker-social-row *ngIf="speaker.social" [social]="speaker.social" (url)="url.emit($event)"> </speaker-social-row>
+</ion-card>

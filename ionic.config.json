@@ -1,0 +1,7 @@
+{
+	"name": "app-ng-be-org",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "angular"
+}
