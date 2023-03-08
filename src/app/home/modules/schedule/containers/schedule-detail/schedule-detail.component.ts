@@ -2,8 +2,9 @@ import { Component, Input } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { switchMap } from 'rxjs/operators';
 
+import { SpeakersService } from '../../../speakers/services/speakers.service';
+
 import { ScheduleItem } from '../../entities';
-import { ScheduleService } from '../../services/schedule.service';
 
 import { SpeakerDetailComponent } from '../../../speakers/containers/speaker-detail/speaker-detail.component';
 
@@ -14,10 +15,11 @@ import { SpeakerDetailComponent } from '../../../speakers/containers/speaker-det
 })
 export class ScheduleDetailComponent {
 	@Input() item!: ScheduleItem;
+	@Input() showSpeakers: boolean = true;
 
 	constructor(
 		private readonly modalController: ModalController,
-		private readonly scheduleService: ScheduleService
+		private readonly speakersService: SpeakersService
 	) {}
 
 	async close(): Promise<void> {
@@ -26,7 +28,7 @@ export class ScheduleDetailComponent {
 
 
 	async onSpeakerSelect(id: string) {
-		this.scheduleService.speakerById(id)
+		this.speakersService.itemById(id)
 			.pipe(
 				switchMap(async (speaker) => {
 					if (!speaker) {
@@ -36,7 +38,8 @@ export class ScheduleDetailComponent {
 					const modal = await this.modalController.create({
 						component: SpeakerDetailComponent,
 						componentProps: {
-							speaker
+							speaker,
+							showTalk: false
 						}
 					});
 

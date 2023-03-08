@@ -1,12 +1,14 @@
 .speaker-info {
 	h3 {
 		font-weight: 100;
-		margin-left: 10px;
-		margin-right: 10px;
 
 		&.padding {
 			margin-top: 50px;
 		}
+	}
+
+	section {
+		margin: 0px 10px;
 	}
 
 	&__header {
@@ -20,7 +22,6 @@
 	&__talk-title {
 		font-size: 16px;
 		line-height: 1.4em;
-		margin: 0px 10px;
 
 		p {
 			padding: 10px;

@@ -10,6 +10,7 @@ import { ScheduleItem } from '../../entities';
 })
 export class ScheduleItemDetailComponent {
 	@Input() item!: ScheduleItem;
+	@Input() showSpeakers: boolean = true;
 	@Output() speaker: EventEmitter<string> = new EventEmitter<string>();
 
 	onSpeakerSelect(id: string): void {

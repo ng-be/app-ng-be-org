@@ -44,10 +44,16 @@ export class SpeakersService {
 
 	loading$: Observable<boolean> = this.speakers$.pipe(map((speakers) => !Boolean(speakers)));
 
-	constructor(private readonly db: Firestore, private readonly storage: StorageService) {}
+	constructor(
+		private readonly db: Firestore,
+		private readonly storage: StorageService
+	) {}
 
 	itemById(id: string): Observable<Speaker | undefined> {
-		return this.speakers$.pipe(first(), map((items) => items.find((item) => item.id === id)));
+		return this.speakers$.pipe(
+			first(),
+			map((items) => items.find((item) => item.id === id))
+		);
 	}
 
 	private prefetch(url: string): void {

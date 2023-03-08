@@ -9,5 +9,10 @@
 </ion-header>
 
 <ion-content>
-	<speaker-info [speaker]="speaker" (url)="openUrl($event)"> </speaker-info>
+	<speaker-info
+		[speaker]="speaker"
+		[showTalk]="showTalk"
+		(url)="openUrl($event)"
+		(talk)="openTalk($event)">
+	</speaker-info>
 </ion-content>
