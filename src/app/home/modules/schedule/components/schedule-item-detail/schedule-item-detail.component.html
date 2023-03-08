@@ -22,11 +22,11 @@
 		</ol>
 	</section>
 
-	<section class="schedule-item-detail__speakers" *ngIf="item.speakers">
+	<section class="schedule-item-detail__speakers" *ngIf="item.speakers && showSpeakers">
 		<h3>Speakers</h3>
 
 		<ion-list class="ion-no-padding" lines="none">
-			<ion-item (click)="onSpeakerSelect(speaker.id)" *ngFor="let speaker of item.speakers">
+			<ion-item (click)="onSpeakerSelect(speaker.id)" *ngFor="let speaker of item.speakers" detail="true">
 				<ion-avatar slot="start">
 					<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}" decoding="async" />
 				</ion-avatar>

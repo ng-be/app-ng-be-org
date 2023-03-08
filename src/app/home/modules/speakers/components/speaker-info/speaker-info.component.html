@@ -5,12 +5,17 @@
 		<speaker-social-row [social]="speaker.social" (url)="url.emit($event)"> </speaker-social-row>
 	</div>
 
-	<h3>Talk title</h3>
-	<div class="speaker-info__talk-title">
-		{{ speaker.talk.title }}
-	</div>
+	<section *ngIf="showTalk">
+		<h3>Talk</h3>
 
-	<h3 class="padding">About {{ speaker.firstName }}</h3>
+		<ion-item (click)="onTalkSelect(speaker.talk.id)" detail="true">
+			{{ speaker.talk.title }}
+		</ion-item>
+	</section>
 
-	<div class="speaker-info__description" [innerHTML]="speaker.description"></div>
+	<section>
+		<h3>About {{ speaker.firstName }}</h3>
+
+		<div class="speaker-info__description" [innerHTML]="speaker.description"></div>
+	</section>
 </div>

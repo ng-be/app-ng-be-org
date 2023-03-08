@@ -1,12 +1,8 @@
 .schedule-item-detail {
+	margin: 10px;
+
 	h3 {
 		font-weight: 400;
-	}
-
-	section {
-		&.schedule-item-detail__info {
-			padding-top: 0;
-		}
 	}
 
 	&__info {

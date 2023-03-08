@@ -6,7 +6,7 @@ export interface ScheduleItem {
 	endDate: string;
 	type: 'break' | 'talk' | 'sponsor';
 	speakers: {
-		id: number;
+		id: string;
 		firstName: string;
 		name: string;
 		picture: string;

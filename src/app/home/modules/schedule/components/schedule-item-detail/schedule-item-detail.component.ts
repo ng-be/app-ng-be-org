@@ -10,9 +10,10 @@ import { ScheduleItem } from '../../entities';
 })
 export class ScheduleItemDetailComponent {
 	@Input() item!: ScheduleItem;
-	@Output() speaker: EventEmitter<number> = new EventEmitter<number>();
+	@Input() showSpeakers: boolean = true;
+	@Output() speaker: EventEmitter<string> = new EventEmitter<string>();
 
-	onSpeakerSelect(id: number): void {
+	onSpeakerSelect(id: string): void {
 		this.speaker.emit(id);
 	}
 }

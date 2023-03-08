@@ -10,5 +10,11 @@ import { Speaker } from '../../entities';
 })
 export class SpeakerInfoComponent {
 	@Input() speaker!: Speaker;
+	@Input() showTalk: boolean = true;
 	@Output() url: EventEmitter<string> = new EventEmitter<string>();
+	@Output() talk: EventEmitter<string> = new EventEmitter<string>();
+
+	onTalkSelect(id: string) {
+		this.talk.emit(id);
+	}
 }
