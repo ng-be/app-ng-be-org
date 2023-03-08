@@ -9,5 +9,8 @@
 </ion-header>
 
 <ion-content>
-	<schedule-item-detail [item]="item"> </schedule-item-detail>
+	<schedule-item-detail
+		[item]="item"
+		(speaker)="onSpeakerSelect($event)">
+	</schedule-item-detail>
 </ion-content>

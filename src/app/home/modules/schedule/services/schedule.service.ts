@@ -5,7 +5,10 @@ import { map, switchMap, publishReplay, refCount, distinctUntilChanged, filter }
 
 import { StorageService } from '@ngbe/services';
 
+import { SpeakersService } from '../../speakers/services/speakers.service';
+
 import { ScheduleItem } from '../entities';
+import { Speaker } from '../../speakers/entities';
 
 @Injectable({
 	providedIn: 'root',
@@ -41,9 +44,17 @@ export class ScheduleService {
 
 	loading$: Observable<boolean> = this.schedule$.pipe(map((items) => !Boolean(items)));
 
-	constructor(private readonly db: Firestore, private readonly storage: StorageService) {}
+	constructor(
+		private readonly db: Firestore,
+		private readonly storage: StorageService,
+		private readonly speakersService: SpeakersService,
+	) {}
 
 	itemById(id: string): Observable<ScheduleItem | undefined> {
 		return this.schedule$.pipe(map((items) => items.find((item) => item.id === id)));
+	}
+
+	speakerById(id: string): Observable<Speaker | undefined> {
+		return this.speakersService.itemById(id);
 	}
 }
