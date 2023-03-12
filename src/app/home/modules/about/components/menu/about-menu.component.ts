@@ -5,6 +5,7 @@ import { PopoverController } from '@ionic/angular';
 	selector: 'ngbe-about-menu',
 	templateUrl: 'about-menu.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,
+	styles: ['.last-item > .item-native { border-bottom: 0px !important;}']
 })
 export class AboutMenuComponent {
 	constructor(private popoverCtrl: PopoverController) {}
