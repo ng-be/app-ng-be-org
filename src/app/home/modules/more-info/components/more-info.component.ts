@@ -2,11 +2,11 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { PopoverController } from '@ionic/angular';
 
 @Component({
-	selector: 'ngbe-about-menu',
-	templateUrl: 'about-menu.component.html',
+	selector: 'ngbe-more-info-menu',
+	templateUrl: 'more-info.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AboutMenuComponent {
+export class MoreInfoComponent {
 	constructor(private popoverCtrl: PopoverController) {}
 
 	open(url: string) {

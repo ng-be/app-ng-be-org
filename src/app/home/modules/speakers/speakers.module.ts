@@ -13,10 +13,12 @@ import { SpeakerListComponent } from './components/speaker-list/speaker-list.com
 import { SpeakerInfoComponent } from './components/speaker-info/speaker-info.component';
 import { SpeakerSocialRowComponent } from './components/speaker-social-row/speaker-social-row.component';
 
+// Modules
 import { SpeakersRoutingModule } from './speakers-routing.module';
+import { MoreInfoModule } from '../more-info/more-info.module';
 
 @NgModule({
-	imports: [CommonModule, IonicModule, SpeakersRoutingModule, PipesModule],
+	imports: [CommonModule, IonicModule, SpeakersRoutingModule, PipesModule, MoreInfoModule],
 	declarations: [
 		SpeakersComponent,
 		SpeakerDetailComponent,

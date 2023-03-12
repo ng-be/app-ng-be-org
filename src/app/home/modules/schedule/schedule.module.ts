@@ -12,10 +12,12 @@ import { ScheduleDetailComponent } from './containers/schedule-detail/schedule-d
 import { ScheduleItemComponent } from './components/schedule-item/schedule-item.component';
 import { ScheduleItemDetailComponent } from './components/schedule-item-detail/schedule-item-detail.component';
 
+// Modules
 import { ScheduleRoutingModule } from './schedule-routing.module';
+import { MoreInfoModule } from '../more-info/more-info.module';
 
 @NgModule({
-	imports: [CommonModule, IonicModule, ScheduleRoutingModule, PipesModule],
+	imports: [CommonModule, IonicModule, ScheduleRoutingModule, PipesModule, MoreInfoModule],
 	declarations: [ScheduleComponent, ScheduleDetailComponent, ScheduleItemComponent, ScheduleItemDetailComponent],
 	entryComponents: [ScheduleDetailComponent],
 })
