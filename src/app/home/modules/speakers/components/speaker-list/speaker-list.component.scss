@@ -3,3 +3,7 @@ h2 {
 		font-size: 0.5em;
 	}
 }
+
+.speaker-card__header::part(native) {
+	background: transparent;
+}

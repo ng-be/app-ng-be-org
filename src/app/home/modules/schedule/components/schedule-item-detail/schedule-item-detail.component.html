@@ -26,7 +26,11 @@
 		<h3>Speakers</h3>
 
 		<ion-list class="ion-no-padding" lines="none">
-			<ion-item (click)="onSpeakerSelect(speaker.id)" *ngFor="let speaker of item.speakers" detail="true">
+			<ion-item
+				(click)="onSpeakerSelect(speaker.id)"
+				*ngFor="let speaker of item.speakers; let last = last"
+				detail="true"
+				[lines]="last ? 'none' : 'inset'">
 				<ion-avatar slot="start">
 					<img [src]="speaker.picture" alt="{{ speaker.firstName }} {{ speaker.name }}" decoding="async" />
 				</ion-avatar>

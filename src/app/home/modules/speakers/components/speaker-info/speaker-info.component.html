@@ -9,7 +9,7 @@
 		<section *ngIf="showTalk">
 			<h3>Talk</h3>
 
-			<ion-item (click)="onTalkSelect(speaker.talk.id)" detail="true">
+			<ion-item (click)="onTalkSelect(speaker.talk.id)" detail="true" lines="none">
 				{{ speaker.talk.title }}
 			</ion-item>
 		</section>

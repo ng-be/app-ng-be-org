@@ -1,5 +1,5 @@
 <ion-card (click)="detail.emit(speaker)" *ngFor="let speaker of speakers; trackBy: trackByFunction">
-	<ion-item>
+	<ion-item class="speaker-card__header">
 		<ion-avatar slot="start">
 			<img [src]="speaker.picture" decoding="async" />
 		</ion-avatar>
