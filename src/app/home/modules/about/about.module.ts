@@ -6,13 +6,12 @@ import { FormsModule } from '@angular/forms';
 // Containers
 import { AboutComponent } from './containers/about/about.component';
 
-// Components
-import { AboutMenuComponent } from './components/menu/about-menu.component';
-
+// Modules
+import { MoreInfoModule } from '../more-info/more-info.module';
 import { AboutRoutingModule } from './about-routing.module';
 
 @NgModule({
-	imports: [IonicModule, CommonModule, AboutRoutingModule],
-	declarations: [AboutComponent, AboutMenuComponent],
+	imports: [IonicModule, CommonModule, AboutRoutingModule, MoreInfoModule],
+	declarations: [AboutComponent],
 })
 export class AboutModule {}

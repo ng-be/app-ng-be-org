@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { ModalController } from '@ionic/angular';
+import { ModalController, PopoverController } from '@ionic/angular';
 import { Observable } from 'rxjs';
 
 import { ScheduleService } from '../../services/schedule.service';
 import { ScheduleItem } from '../../entities';
 import { ScheduleDetailComponent } from '../schedule-detail/schedule-detail.component';
+import { MoreInfoComponent } from '../../../more-info/components/more-info.component';
+import { BrowserService } from '@ngbe/services';
 
 @Component({
 	selector: 'schedule',
@@ -15,7 +17,13 @@ export class ScheduleComponent {
 	schedule$: Observable<ScheduleItem[]> = this.scheduleService.schedule$;
 	loading$: Observable<boolean> = this.scheduleService.loading$;
 
-	constructor(private readonly scheduleService: ScheduleService, private readonly modalController: ModalController) {}
+	constructor(
+		private readonly scheduleService: ScheduleService,
+		private readonly modalController: ModalController,
+		private readonly browserService: BrowserService,
+		private readonly popoverCtrl: PopoverController
+	) {
+	}
 
 	async showDetail(item: ScheduleItem): Promise<void> {
 		const modal = await this.modalController.create({
@@ -26,5 +34,20 @@ export class ScheduleComponent {
 		});
 
 		await modal.present();
+	}
+
+	async showMenu(event: Event) {
+		const popover = await this.popoverCtrl.create({
+			component: MoreInfoComponent,
+			event,
+		});
+
+		await popover.present();
+
+		const { data } = await popover.onWillDismiss();
+
+		if (data) {
+			this.browserService.open(data);
+		}
 	}
 }
